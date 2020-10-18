@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.76.5 with theme Tranquilpeak 0.4.8-BETA">
+<meta name="author" content="Harsh Darji">
+<meta name="keywords" content="">
+<meta name="description" content="A real-life data science task for a Mail-order sales company - The objective is to identify which individuals are most likely to respond to the campaign and become customers of the mail-order company.">
+
+
+<meta property="og:description" content="A real-life data science task for a Mail-order sales company - The objective is to identify which individuals are most likely to respond to the campaign and become customers of the mail-order company.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Identify Potential Customers Among the Crowd?">
+<meta name="twitter:title" content="How to Identify Potential Customers Among the Crowd?">
+<meta property="og:url" content="https:///2020/04/how-to-identify-potential-customers-among-the-crowd/">
+<meta property="twitter:url" content="https:///2020/04/how-to-identify-potential-customers-among-the-crowd/">
+<meta property="og:site_name" content="Harsh Darji">
+<meta property="og:description" content="A real-life data science task for a Mail-order sales company - The objective is to identify which individuals are most likely to respond to the campaign and become customers of the mail-order company.">
+<meta name="twitter:description" content="A real-life data science task for a Mail-order sales company - The objective is to identify which individuals are most likely to respond to the campaign and become customers of the mail-order company.">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-04-29T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2020-04-29T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="Data Science">
+    
+      <meta property="article:section" content="Machine Learning">
+    
+  
+  
+    
+      <meta property="article:tag" content="data science">
+    
+      <meta property="article:tag" content="customer segmentation">
+    
+      <meta property="article:tag" content="kaggle">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://miro.medium.com/max/875/0*6ZEe2u3ldlfq-pOz">
+  <meta property="twitter:image" content="https://miro.medium.com/max/875/0*6ZEe2u3ldlfq-pOz">
+
+
+
+
+
+  <meta property="og:image" content="https:///images/profile.jpg">
+  <meta property="twitter:image" content="https:///images/profile.jpg">
+
+
+    <title>How to Identify Potential Customers Among the Crowd?</title>
+
+    <link rel="icon" href="https:///favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https:///2020/04/how-to-identify-potential-customers-among-the-crowd/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https:///css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="5">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https:///">Harsh Darji</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https:///#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https:///images/profile.jpg" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="5">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https:///#about">
+          <img class="sidebar-profile-picture" src="https:///images/profile.jpg" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Harsh Darji</h4>
+        
+          <h5 class="sidebar-profile-bio">Data Science | Books | Basketball</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-user",title='About'></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/harshdarji23/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-linkedin" title='LinkedIn'></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/harshdarji23" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://medium.com/@harshdarji_15896" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-medium" title='Medium'></i>
+      
+      <span class="sidebar-button-desc">Medium</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/harshdarji_4" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.goodreads.com/review/list/86084125?shelf=read" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-book" title='Goodreads'></i>
+      
+      <span class="sidebar-button-desc">Goodreads</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="5"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      How to Identify Potential Customers Among the Crowd?
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-04-29T00:00:00Z">
+        
+  April 29, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https:///categories/data-science">Data Science</a>, 
+    
+      <a class="category-link" href="https:///categories/machine-learning">Machine Learning</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>A real-life data science task for a Mail-order sales company - The objective is to identify which individuals are most likely to respond to the campaign and become customers of the mail-order company.</p>
+<h2 id="introduction">Introduction</h2>
+<p>In this project, a <a href="https://en.wikipedia.org/wiki/Mail_order">mail-order</a> sales company in Germany is interested in identifying segments of the general population to target with their marketing to grow.
+Demographics information has been provided (by Arvato Finacial Solutions through Udacity) for both the general population at large as well as for prior customers of the mail-order company to build a model of the customer base of the company. The target dataset contains demographics information for targets of a mailout marketing campaign.</p>
+<h2 id="data-description">Data Description</h2>
+<p>The .csv files for this project are not provided because of a non-disclosure agreement with Arvato. The following are the files that were used:</p>
+<ul>
+<li><strong>Udacity_AZDIAS_052018.csv:</strong> Demographics data for the general population of Germany; 891 211 persons (rows) x 366 features (columns)</li>
+<li><strong>Udacity_CUSTOMERS_052018.csv</strong>: Demographics data for customers of a mail-order company; 191 652 persons (rows) x 369 features (columns).</li>
+<li><strong>Udacity_MAILOUT_052018_TRAIN.csv:</strong> Demographics data for individuals who were targets of a marketing campaign; 42 982 persons (rows) x 367 (columns).</li>
+<li><strong>Udacity_MAILOUT_052018_TEST.csv:</strong> Demographics data for individuals who were targets of a marketing campaign; 42 833 persons (rows) x 366 (columns).</li>
+<li><strong>DIAS Attributes — Values 2017.xlsx:</strong> Detailed information about the columns depicted in the files in alphabetical order. To learn more about the features, please click <a href="https://github.com/harshdarji23/Arvato-Identifying-the-potential-customers/tree/master/Data">here</a>.</li>
+</ul>
+<h2 id="data-preprocessing">Data Preprocessing</h2>
+<ul>
+<li><strong>Memory Reduction:</strong> The .csv (Udacity_AZDIAS_052018) file holding demographic data of the general population was of the size of 2.5 GB, so I wrote a simple function to change the data types (int64 to int16) and reduce the memory usage by 78%. To learn more about the function and memory reduction, please click <a href="https://www.kaggle.com/gemartin/load-data-reduce-memory-usage">here</a>.</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Data Understanding:</strong> All the data files have the same features, so I decided to go with Udacity_AZDIAS_052018.csv file to understand the demographic data. I used DIAS Attributes — Values 2017.xlsx files to understand what each value means for the column. See the image below for an example:</li>
+</ul>
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*Vq7VcNwB9YbCaseTeFCbnA.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*Vq7VcNwB9YbCaseTeFCbnA.png" >
+  
+    </a>
+  
+  
+</div>
+
+<p>Here, the attribute <strong>AGER_TYP</strong> describes the best-ager typology. If you see the Value column above, it has values -1, 0, which means the meaning is unknown, and no classification is possible. On further, examination it&rsquo;s discovered that attributes having meaning <strong>&lsquo;unknown&rsquo;/ &lsquo;no classification&rsquo;</strong> were missing values. So, I decided to fill such values with nan. Of course, there were many attributes that had values that were not known. To know the detailed analysis, please click <a href="https://github.com/harshdarji23/Arvato-Identifying-the-potential-customers/tree/master/Jupyter%20Notebook">here</a>.</p>
+<!-- raw HTML omitted -->
+<hr>
+<ul>
+<li><strong>Handling Missing Values:</strong> There were 366 features, so I decided to inspect the columns first after understanding the data(from pt.2) So, I calculated the % of missing values in each column and decided on a threshold 0f 30%, i.e., if columns contained more than 70% of missing values, I would simply drop those columns.</li>
+</ul>
+<p>
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*kVIszoN8VE3Cydg99SegOg.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*kVIszoN8VE3Cydg99SegOg.png" >
+  
+    </a>
+  
+  
+</div>
+
+On further inspection, I discovered that attributes starting with D19 were dropped. D19 when we look up in the DIAS Attributes - Values 2017.xlsx file shows that it contained transactional data (e.g., transactional activity based on the product group GUIDEBOOKS)</p>
+<p>The next thing I did was to look missing values by rows, and I decided to remove the rows which contained more than 15 missing values. I here used Q3–1.5IQR to decide on the threshold of 15.
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*Zp7RjHa-CNhSJzTEXmu-Gw.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*Zp7RjHa-CNhSJzTEXmu-Gw.png" >
+  
+    </a>
+  
+  
+</div>
+
+And the rest of the missing values were imputed by mean for simplicity reason.</p>
+<ul>
+<li><strong>Feature Engineering:</strong> There were a lot of categorical variables, so I created dummy variables out of them if they had less than 10 levels. Now that all the features were numeric, we can apply any machine learning algorithm. But before that, I applied StandardScaler() to transform all the columns.</li>
+</ul>
+<h2 id="customer-segmentation">Customer Segmentation</h2>
+<p>Here, the main goal was to use unsupervised learning methods to analyze attributes of established customers and the general population to create customer segments. The analysis describes parts of the general population that are more likely to be part of the mail-order company&rsquo;s main customer base, and which parts of the general population are less so.</p>
+<p>So, I used the PCA technique to capture the maximum variance in the data and reduce the dimensionality of data. I decided on a threshold of 50%.
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*3xMwaoNaisvv1VkhJr6Fhg.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*3xMwaoNaisvv1VkhJr6Fhg.png" >
+  
+    </a>
+  
+  
+</div>
+
+36 features out of 366 were able to capture 50% of the variance. Following is the PCA Dimension 0 :
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*LHmTDdr514mWOHCH5hzQKQ.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*LHmTDdr514mWOHCH5hzQKQ.png" >
+  
+    </a>
+  
+  
+</div>
+</p>
+<h3 id="interpreting-the-1st-pca-component-top-10-features">Interpreting the 1st PCA component (top 10 features):</h3>
+<ul>
+<li><strong>PLZ8_BAUMAX:</strong> most common building-type within the PLZ8 (pos)-mainly &gt;10 family homes</li>
+<li><strong>PLZ8_ANTG4:</strong> number of &gt;10 family houses in the PLZ8 (pos)-high share</li>
+<li><strong>PLZ8_ANTG3:</strong> number of 6–10 family houses in the PLZ8 (pos)-high share</li>
+<li><strong>PLZ8_ANTG1:</strong> number of 1–2 family houses in the PLZ8 (neg)-low share</li>
+<li><strong>MOBI_REGIO:</strong> moving patterns (neg)-high mobility</li>
+</ul>
+<p>So this group is <strong>high mobility, large family area, crowed area, low-income.</strong></p>
+<p>Next, I used data that was scaled using PCA to apply k-means clustering and identify customer segments groups. I used the elbow method to decide on the number of clusters, and I decided to go with 10.
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*jaZwb_EsUecWFqAXVriNnA.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*jaZwb_EsUecWFqAXVriNnA.png" >
+  
+    </a>
+  
+  
+</div>
+
+I did the same transformation on the demographics data of the customer of the mail-order company Udacity_CUSTOMERS_052018.csv.</p>
+<p>
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*ag5wCyguHlgEb5kM5CtECw.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*ag5wCyguHlgEb5kM5CtECw.png" >
+  
+    </a>
+  
+  
+</div>
+
+Here, we can see that people belonging to cluster 1 and 8 are the ones who respond to a marketing campaign from a mail-order company and become customers. So, the marketing team should focus on such groups. The good news is that there are many people in Germany(Blue bar of 1 and 8) who fall into these groups.</p>
+<h3 id="marketing-predictions-supervised-learningmodel">Marketing Predictions-Supervised Learning Model</h3>
+<p>Here, we will use the dataset containing the demographics data for individuals who were targets of a marketing campaign. The training dataset has the response of the customers, and we will use the ML model to learn the parameters and predict the response of customers in the test data.</p>
+<ul>
+<li><strong>Udacity_MAILOUT_052018_TRAIN.csv:</strong> Demographics data for individuals who were targets of a marketing campaign; 42 982 persons (rows) x 367 (columns).</li>
+<li><strong>Udacity_MAILOUT_052018_TEST.csv:</strong> Demographics data for individuals who were targets of a marketing campaign; 42 833 persons (rows) x 366 (columns).</li>
+</ul>
+<h3 id="data-preparation">Data Preparation</h3>
+<p>I have used the same cleaning function, which I used for the segmentation report. I have filled the missing values in numerical columns with mean, and I have created dummy variables for categorical columns. I have also performed a scaler transformation because I wanted to check the performance of different ML algorithms. However, the class in the dataset is an imbalance, the response from 98% in the training data is negative, and 2% is positive, so using recall(identifying potential customer) as the metric won&rsquo;t be right. Thus I have used ROC AUC as the metric to evaluate the performance. I have also added extra features from the customer dataset.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">test</span>[<span style="color:#e6db74">&#39;CUSTOMER_GROUP&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">test</span>[<span style="color:#e6db74">&#39;CUSTOMER_GROUP&#39;</span>].<span style="color:#a6e22e">apply</span>(<span style="color:#a6e22e">lambda</span> <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span><span style="color:#ae81ff">1</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">x</span><span style="color:#f92672">==</span><span style="color:#e6db74">&#39;SINGLE_BUYER&#39;</span> <span style="color:#66d9ef">else</span> <span style="color:#ae81ff">0</span>)
+<span style="color:#a6e22e">test</span>[<span style="color:#e6db74">&#39;PRODUCT_GROUP1&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">test</span>[<span style="color:#e6db74">&#39;PRODUCT_GROUP&#39;</span>].<span style="color:#a6e22e">apply</span>(<span style="color:#a6e22e">lambda</span> <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span><span style="color:#ae81ff">1</span> <span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#39;FOOD&#39;</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">x</span> <span style="color:#66d9ef">else</span> <span style="color:#ae81ff">0</span>)
+<span style="color:#a6e22e">test</span>[<span style="color:#e6db74">&#39;PRODUCT_GROUP2&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">test</span>[<span style="color:#e6db74">&#39;PRODUCT_GROUP&#39;</span>].<span style="color:#a6e22e">apply</span>(<span style="color:#a6e22e">lambda</span> <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span><span style="color:#ae81ff">1</span> <span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#39;COSMETIC&#39;</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">x</span> <span style="color:#66d9ef">else</span> <span style="color:#ae81ff">0</span>)
+</code></pre></div><p>The best performing models were:</p>
+<h2 id="hahahugoshortcode-s7-hbhb">
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*kP43Ne2Xai-9BT56AkG-6Q.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*kP43Ne2Xai-9BT56AkG-6Q.png" >
+  
+    </a>
+  
+  
+</div>
+</h2>
+<p>
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*LbnVUi--Mno4KqCp8Nz4hg.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*LbnVUi--Mno4KqCp8Nz4hg.png" >
+  
+    </a>
+  
+  
+</div>
+
+I tried to optimize the hyperparameters of both the models, and Adaboostclasifer came at the top. The following are the parameters I used:</p>
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*5aRejUTn9LRC85DYXFXPvg.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*5aRejUTn9LRC85DYXFXPvg.png" >
+  
+    </a>
+  
+  
+</div>
+
+<h3 id="prediction--kaggle-competition">Prediction- Kaggle Competition</h3>
+<p>I submitted my prediction on Test data to the competition hosted on Kaggle, and I got a score of 0.79459, which is just 0.016 behind the 1st place on the leaderboard.</p>
+<h3 id="feature-importance">Feature Importance</h3>
+<p>D19_SOZIALES: This is the feature related to a transaction that is not given in the data dictionary was the most important feature for a potential customer to respond to the marketing campaign.
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://cdn-images-1.medium.com/max/1000/1*OCyrtUHSkXkfbpiLQ--9dQ.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://cdn-images-1.medium.com/max/1000/1*OCyrtUHSkXkfbpiLQ--9dQ.png" >
+  
+    </a>
+  
+  
+</div>
+</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>We used the demographic data of Germany and historical customer data of the marketing campaign to identify the best demographic group to target and thereby reducing marketing spend. We were successfully able to apply PCA and K-means clustering to identify customer segments. We used the Adaboost classifier with hyperparameter tuning to predict and classify if the customer will respond to a marketing campaign. A detailed analysis can be found on my <a href="https://github.com/harshdarji23/Arvato-Identifying-the-potential-customers">github</a></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https:///tags/data-science/">data science</a>
+
+  <a class="tag tag--primary tag--small" href="https:///tags/customer-segmentation/">customer segmentation</a>
+
+  <a class="tag tag--primary tag--small" href="https:///tags/kaggle/">kaggle</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https:///2020/05/building-a-disaster-response-web-application/" data-tooltip="Building a Disaster response Web-Application">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https:///2020/01/will-your-education-pay-you-well/" data-tooltip="Will Your Education Pay You Well?">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https:///2020/04/how-to-identify-potential-customers-among-the-crowd/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https:///2020/04/how-to-identify-potential-customers-among-the-crowd/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Harsh Darji. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="5">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https:///2020/05/building-a-disaster-response-web-application/" data-tooltip="Building a Disaster response Web-Application">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https:///2020/01/will-your-education-pay-you-well/" data-tooltip="Will Your Education Pay You Well?">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https:///2020/04/how-to-identify-potential-customers-among-the-crowd/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https:///2020/04/how-to-identify-potential-customers-among-the-crowd/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="5">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F%2F2020%2F04%2Fhow-to-identify-potential-customers-among-the-crowd%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2F%2F2020%2F04%2Fhow-to-identify-potential-customers-among-the-crowd%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https:///images/profile.jpg" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Harsh Darji</h4>
+    
+      <div id="about-card-bio">Data Science | Books | Basketball</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Automation Analyst @ Zoro
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Chicago
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https:///images/img-cover-1.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https:///js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

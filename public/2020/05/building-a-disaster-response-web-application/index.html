@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.76.5 with theme Tranquilpeak 0.4.8-BETA">
+<meta name="author" content="Harsh Darji">
+<meta name="keywords" content="full-stack, machine learning, data science, deployment, data science">
+<meta name="description" content="In this project, we will be building a disaster response web application that will classify the message into different categories like medical supplies, food, or block road and direct them to the right organization to provide speedy recovery!">
+
+
+<meta property="og:description" content="In this project, we will be building a disaster response web application that will classify the message into different categories like medical supplies, food, or block road and direct them to the right organization to provide speedy recovery!">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Building a Disaster response Web-Application">
+<meta name="twitter:title" content="Building a Disaster response Web-Application">
+<meta property="og:url" content="https:///2020/05/building-a-disaster-response-web-application/">
+<meta property="twitter:url" content="https:///2020/05/building-a-disaster-response-web-application/">
+<meta property="og:site_name" content="Harsh Darji">
+<meta property="og:description" content="In this project, we will be building a disaster response web application that will classify the message into different categories like medical supplies, food, or block road and direct them to the right organization to provide speedy recovery!">
+<meta name="twitter:description" content="In this project, we will be building a disaster response web application that will classify the message into different categories like medical supplies, food, or block road and direct them to the right organization to provide speedy recovery!">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-05-03T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2020-05-03T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="Data Science">
+    
+      <meta property="article:section" content="Web Application">
+    
+  
+  
+    
+      <meta property="article:tag" content="full-stack">
+    
+      <meta property="article:tag" content="machine learning">
+    
+      <meta property="article:tag" content="data science">
+    
+      <meta property="article:tag" content="deployment">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://miro.medium.com/max/875/0*s6tzx9iUTs9Qr52q">
+  <meta property="twitter:image" content="https://miro.medium.com/max/875/0*s6tzx9iUTs9Qr52q">
+
+
+
+
+
+  <meta property="og:image" content="https:///images/profile.jpg">
+  <meta property="twitter:image" content="https:///images/profile.jpg">
+
+
+    <title>Building a Disaster response Web-Application</title>
+
+    <link rel="icon" href="https:///favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https:///2020/05/building-a-disaster-response-web-application/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https:///css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="5">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https:///">Harsh Darji</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https:///#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https:///images/profile.jpg" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="5">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https:///#about">
+          <img class="sidebar-profile-picture" src="https:///images/profile.jpg" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Harsh Darji</h4>
+        
+          <h5 class="sidebar-profile-bio">Data Science | Books | Basketball</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-user",title='About'></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https:///archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/harshdarji23/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-linkedin" title='LinkedIn'></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/harshdarji23" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://medium.com/@harshdarji_15896" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-medium" title='Medium'></i>
+      
+      <span class="sidebar-button-desc">Medium</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/harshdarji_4" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.goodreads.com/review/list/86084125?shelf=read" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-book" title='Goodreads'></i>
+      
+      <span class="sidebar-button-desc">Goodreads</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="5"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-center">
+  
+    <h1 class="post-title" itemprop="headline">
+      Building a Disaster response Web-Application
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-05-03T00:00:00Z">
+        
+  May 3, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https:///categories/data-science">Data Science</a>, 
+    
+      <a class="category-link" href="https:///categories/web-application">Web Application</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>In this project, we will be building a disaster response web application that will classify the message into different categories like medical supplies, food, or block road and direct them to the right organization to provide speedy recovery!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>In 2019, there were a total of <a href="https://www.statista.com/statistics/510959/number-of-natural-disasters-events-globally/">409</a> natural disasters worldwide. The irony is that we are right now in the middle of a global pandemic due to Covid19.  During a disaster or following the disaster, millions of people communicate either directly or via social media to get some help from the governmentor disaster relief and recovery services. If the affected person is tweeting it or even sending a message to the helpline service chances are that the message will be lost in the thousands of messages received. Sometimes it’s because a lot of people are just tweeting and very few people are needing help and organizations do not have enough time to filter out these many messages manually.</p>
+<!-- raw HTML omitted -->
+<hr>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://images.unsplash.com/photo-1475776408506-9a5371e7a068?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://images.unsplash.com/photo-1475776408506-9a5371e7a068?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" >
+  
+    </a>
+  
+  
+</div>
+
+<h2 id="data-overview">Data Overview</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>We will be analyzing real messages that were sent during disaster events. The data was collected by <a href="https://appen.com/">Figure Eight</a> and provided by <a href="https://classroom.udacity.com/courses/ud257">Udacity</a>, a big thank you to them. Let’s look at the data description:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="https://github.com/harshdarji23/Disaster-Response-WebApplication/blob/master/workspace/data/disaster_messages.csv">messages.csv</a>: Contains the id, message that was sent and genre i.e the method (direct, tweet..) the message was sent.</li>
+<li><a href="https://github.com/harshdarji23/Disaster-Response-WebApplication/blob/master/workspace/data/disaster_categories.csv">categories.csv</a>: Contains the id and the categories (related, offer, medical assistance..) the message belonged to.</li>
+</ul>
+<h2 id="etl-pipeline">ETL Pipeline</h2>
+<p>So, in this part, we will merge two datasets, <strong>messages.csv</strong>, and <strong>categories.csv</strong> on the common id column. The category column in the id categories.csv is in a string format so we need to create columns for each category. Then we will remove duplicates and load the dataset the transformed data into the database hosted using the SQLAlchemy library.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="hahahugoshortcode-s1-hbhb">
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://miro.medium.com/max/840/1*eYtOsK4PowFQrl0FE7-5iQ.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://miro.medium.com/max/840/1*eYtOsK4PowFQrl0FE7-5iQ.png" >
+  
+    </a>
+  
+  
+</div>
+</h2>
+<h2 id="the-categories-are-of-the-form">The categories are of the form</h2>
+<h2 id="hahahugoshortcode-s2-hbhb">
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://miro.medium.com/max/520/1*_0t7hCJT_tCU6Pn85e9hLQ.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://miro.medium.com/max/520/1*_0t7hCJT_tCU6Pn85e9hLQ.png" >
+  
+    </a>
+  
+  
+</div>
+</h2>
+<h2 id="after-transformation">After transformation</h2>
+<h2 id="hahahugoshortcode-s3-hbhb">
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://miro.medium.com/max/726/1*t4CrRIQArf11E7LL2a_UzA.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://miro.medium.com/max/726/1*t4CrRIQArf11E7LL2a_UzA.png" >
+  
+    </a>
+  
+  
+</div>
+</h2>
+<h2 id="load-data-into-database">Load data into database</h2>
+<p>And we finally load the transformed data into the database: disaster.db. <!-- raw HTML omitted -->
+Checkout the code for the entire ETL pipeline <a href="https://github.com/harshdarji23/Disaster-Response-WebApplication/blob/master/Jupyter%20Notebooks/ETL%20Pipeline%20Preparation.ipynb">here</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">engine</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">create_engine</span>(<span style="color:#e6db74">&#39;sqlite:///disaster.db&#39;</span>);
+<span style="color:#a6e22e">df</span>.<span style="color:#a6e22e">to_sql</span>(<span style="color:#e6db74">&#39;disaster_response&#39;</span>, <span style="color:#a6e22e">engine</span>, <span style="color:#a6e22e">index</span><span style="color:#f92672">=</span><span style="color:#a6e22e">False</span>);
+</code></pre></div><hr>
+<h2 id="ml-pipeline">ML Pipeline</h2>
+<p>Here, we will load the dataset from the disaster.db database. Our main task is to convert the messages into tokens so that they can be interpreted. So, we create a function that will remove punctuations, tokenize words, remove stop words, and perform lemmatization.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">url_regex</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&amp;+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+&#39;</span>
+<span style="color:#a6e22e">def</span> <span style="color:#a6e22e">tokenize</span>(<span style="color:#a6e22e">text</span>)<span style="color:#f92672">:</span>
+    <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Detect</span> <span style="color:#a6e22e">URLs</span>
+    <span style="color:#a6e22e">detected_urls</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">re</span>.<span style="color:#a6e22e">findall</span>(<span style="color:#a6e22e">url_regex</span>, <span style="color:#a6e22e">text</span>)
+    <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">url</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">detected_urls</span><span style="color:#f92672">:</span>
+        <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">text</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#a6e22e">url</span>, <span style="color:#e6db74">&#39;urlplaceholder&#39;</span>)
+    
+    <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Normalize</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">tokenize</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">remove</span> <span style="color:#a6e22e">punctuation</span>
+    <span style="color:#a6e22e">tokens</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">nltk</span>.<span style="color:#a6e22e">word_tokenize</span>(<span style="color:#a6e22e">re</span>.<span style="color:#a6e22e">sub</span>(<span style="color:#a6e22e">r</span><span style="color:#e6db74">&#34;[^a-zA-Z0-9]&#34;</span>, <span style="color:#e6db74">&#34; &#34;</span>, <span style="color:#a6e22e">text</span>.<span style="color:#a6e22e">lower</span>()))
+    
+    <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Remove</span> <span style="color:#a6e22e">stopwords</span>
+    <span style="color:#a6e22e">tokens</span> <span style="color:#f92672">=</span> [<span style="color:#a6e22e">t</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">t</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">tokens</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">t</span> <span style="color:#a6e22e">not</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">stopwords</span>.<span style="color:#a6e22e">words</span>(<span style="color:#e6db74">&#39;english&#39;</span>)]
+    <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Lemmatize</span>
+    <span style="color:#a6e22e">lemmatizer</span><span style="color:#f92672">=</span><span style="color:#a6e22e">WordNetLemmatizer</span>()
+    <span style="color:#a6e22e">tokens</span> <span style="color:#f92672">=</span> [<span style="color:#a6e22e">lemmatizer</span>.<span style="color:#a6e22e">lemmatize</span>(<span style="color:#a6e22e">t</span>) <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">t</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">tokens</span>]
+    
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">tokens</span>
+</code></pre></div><h2 id="so-this-is-what-our-function-will-do">So, this is what our function will do</h2>
+
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://miro.medium.com/max/669/1*D2hkb6qSMwaKPGodlp8APQ.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://miro.medium.com/max/669/1*D2hkb6qSMwaKPGodlp8APQ.png" >
+  
+    </a>
+  
+  
+</div>
+
+<p>These words make sense but they cannot be understood by the ML model. So, we will use countVectorizer and tfidf transformer to transform the tokens into features(integers) and we use a simple Random Forest Classifier to fit the training data.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">pipeline</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Pipeline</span>([
+    (<span style="color:#e6db74">&#39;vect&#39;</span>, <span style="color:#a6e22e">CountVectorizer</span>(<span style="color:#a6e22e">tokenizer</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">tokenize</span>))
+    , (<span style="color:#e6db74">&#39;tfidf&#39;</span>, <span style="color:#a6e22e">TfidfTransformer</span>())
+    , (<span style="color:#e6db74">&#39;clf&#39;</span>, <span style="color:#a6e22e">MultiOutputClassifier</span>(<span style="color:#a6e22e">RandomForestClassifier</span>()))])
+<span style="color:#a6e22e">pipeline</span>.<span style="color:#a6e22e">fit</span>(<span style="color:#a6e22e">X_train</span>, <span style="color:#a6e22e">Y_train</span>)
+</code></pre></div><p>For evaluating our model, we will be using the F-1 score as both False Negatives and False positives are important to us i.e. if we fail to predict the right category of the message then we won’t be able to provide right assistance and if we wrongly predict the category of the message we will be wasting our time.
+The Random Forest classifier gives us an F-1 score of 0.44. The main reason behind the low score is that the categories are highly imbalanced. The distribution of the categories is as follows:</p>
+<hr>
+<p>
+
+ 
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+
+<div class="figure fig-100" >
+  
+    <a class="fancybox" href="https://miro.medium.com/max/875/1*k01VKOQS26M90yNbw9xcow.png" data-fancybox-group="">
+  
+    <img class="fig-img" src="https://miro.medium.com/max/875/1*k01VKOQS26M90yNbw9xcow.png" >
+  
+    </a>
+  
+  
+</div>
+
+Let’s improve the model using some different ML model and hyperparameter tuning. So, after doing a GridSearchCV to find the best parameter of the Random Forest model we were able to increase the F-1 score to 0.51. Next, we train AdaBoost classifier and we were able to improve the F-1 score to 0.59</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#960050;background-color:#1e0010">#</span><span style="color:#a6e22e">https</span><span style="color:#f92672">:</span><span style="color:#75715e">//medium.com/swlh/the-hyperparameter-cheat-sheet-770f1fed32ff
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">pipeline_ada</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Pipeline</span>([
+    (<span style="color:#e6db74">&#39;vect&#39;</span>, <span style="color:#a6e22e">CountVectorizer</span>(<span style="color:#a6e22e">tokenizer</span><span style="color:#f92672">=</span><span style="color:#a6e22e">tokenize</span>)),
+    (<span style="color:#e6db74">&#39;tfidf&#39;</span>, <span style="color:#a6e22e">TfidfTransformer</span>()),
+    (<span style="color:#e6db74">&#39;clf&#39;</span>, <span style="color:#a6e22e">MultiOutputClassifier</span>(
+        <span style="color:#a6e22e">AdaBoostClassifier</span>(<span style="color:#a6e22e">base_estimator</span><span style="color:#f92672">=</span><span style="color:#a6e22e">DecisionTreeClassifier</span>(<span style="color:#a6e22e">max_depth</span><span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, <span style="color:#a6e22e">class_weight</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;balanced&#39;</span>))
+    ))
+])
+<span style="color:#a6e22e">parameters_ada</span> <span style="color:#f92672">=</span> {
+    <span style="color:#e6db74">&#39;clf__estimator__learning_rate&#39;</span><span style="color:#f92672">:</span> [<span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.3</span>],
+    <span style="color:#e6db74">&#39;clf__estimator__n_estimators&#39;</span><span style="color:#f92672">:</span> [<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">200</span>]
+}
+<span style="color:#a6e22e">cv_ada</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">GridSearchCV</span>(<span style="color:#a6e22e">estimator</span><span style="color:#f92672">=</span><span style="color:#a6e22e">pipeline_ada</span>, <span style="color:#a6e22e">param_grid</span><span style="color:#f92672">=</span><span style="color:#a6e22e">parameters_ada</span>, <span style="color:#a6e22e">cv</span><span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>, <span style="color:#a6e22e">scoring</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;f1_weighted&#39;</span>, <span style="color:#a6e22e">verbose</span><span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>)
+</code></pre></div><p>We save this model as a pickle file so that we do not need to train it again. Code available <a href="https://github.com/harshdarji23/Disaster-Response-WebApplication/blob/master/Jupyter%20Notebooks/ML%20Pipeline%20Preparation.ipynb">here</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">pickle</span>.<span style="color:#a6e22e">dump</span>(<span style="color:#a6e22e">cv_ada</span>, <span style="color:#a6e22e">open</span>(<span style="color:#e6db74">&#39;disaster_ada_model.sav&#39;</span>, <span style="color:#e6db74">&#39;wb&#39;</span>))
+</code></pre></div><p>Flask Application
+We will create a train_classifer.py to create functions that will transform, load, build, and save the model. Basically, we will use the ETL pipeline and ML pipeline. We will create a folder named app that will contain a master.html file which will be the front end and run.py that will run behind to perform computation.</p>
+<h2 id="demo">Demo</h2>
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/oKckLSPwtq">pic.twitter.com/oKckLSPwtq</a></p>&mdash; Jason Bourne (@harshdarji_23) <a href="https://twitter.com/harshdarji_23/status/1256761506949222407?ref_src=twsrc%5Etfw">May 3, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Build a full-stack multi-output ML web application to classify messages sent during disasters into different categories and provide quick assistance from different disaster relief organizations. You can run this application on your own computer by following the instructions on my <a href="https://github.com/harshdarji23/Disaster-Response-WebApplication">github</a>.</p>
+<hr>
+<p>Thank you for reading!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https:///tags/full-stack/">full-stack</a>
+
+  <a class="tag tag--primary tag--small" href="https:///tags/machine-learning/">machine learning</a>
+
+  <a class="tag tag--primary tag--small" href="https:///tags/data-science/">data science</a>
+
+  <a class="tag tag--primary tag--small" href="https:///tags/deployment/">deployment</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https:///2020/04/how-to-identify-potential-customers-among-the-crowd/" data-tooltip="How to Identify Potential Customers Among the Crowd?">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https:///2020/05/building-a-disaster-response-web-application/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https:///2020/05/building-a-disaster-response-web-application/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Harsh Darji. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="5">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https:///2020/04/how-to-identify-potential-customers-among-the-crowd/" data-tooltip="How to Identify Potential Customers Among the Crowd?">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https:///2020/05/building-a-disaster-response-web-application/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https:///2020/05/building-a-disaster-response-web-application/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="5">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F%2F2020%2F05%2Fbuilding-a-disaster-response-web-application%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2F%2F2020%2F05%2Fbuilding-a-disaster-response-web-application%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https:///images/profile.jpg" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Harsh Darji</h4>
+    
+      <div id="about-card-bio">Data Science | Books | Basketball</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Automation Analyst @ Zoro
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Chicago
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https:///images/img-cover-1.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https:///js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

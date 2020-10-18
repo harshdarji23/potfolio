@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Harsh Darji</title>
+    <link>https:///tags/</link>
+    <description>Recent content in Tags on Harsh Darji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https:///tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data science</title>
+      <link>https:///tags/data-science/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deployment</title>
+      <link>https:///tags/deployment/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>full-stack</title>
+      <link>https:///tags/full-stack/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/full-stack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https:///tags/machine-learning/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>customer segmentation</title>
+      <link>https:///tags/customer-segmentation/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/customer-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kaggle</title>
+      <link>https:///tags/kaggle/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/kaggle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analytics</title>
+      <link>https:///tags/analytics/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cross-validation</title>
+      <link>https:///tags/cross-validation/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/cross-validation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>food for thought</title>
+      <link>https:///tags/food-for-thought/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/food-for-thought/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mythology</title>
+      <link>https:///tags/mythology/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/mythology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>https:///tags/philosophy/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https:///tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
