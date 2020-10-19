@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "Harsh Darji"
 theme = "hugo-tranquilpeak-theme"
 #disqusShortname = "disqusShortname"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-180848516-1"
 paginate = 5
 canonifyurls = true
 
