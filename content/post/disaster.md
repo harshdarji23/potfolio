@@ -3,7 +3,6 @@ title: "Building a Disaster response Web-Application"
 date: 2020-05-03
 categories:
 - Data Science
-- Web Application
 tags:
 - full-stack
 - machine learning
