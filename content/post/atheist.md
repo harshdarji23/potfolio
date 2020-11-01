@@ -16,10 +16,9 @@ keywords:
 - philosophy
 - food for thought
 - mythology
-
-<!--more-->
-
+---
 After reading this blog, it will not really matter whether you are an atheist or not.
+<!--more-->
 So, my granny have been reading Mahabharata because so called month “Shravan” is approaching. Being a fan of mythology, I tossed couple of questions at her which she answered philosophically. I wasn’t satisfied so I corroborated innumerable amount of articles over the internet.
 
 Well,there is an interesting interpretation about this Epic war Mahabharata.
