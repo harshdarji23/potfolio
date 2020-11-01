@@ -3,7 +3,6 @@ title: "Will Your Education Pay You Well?"
 date: 2020-01-23
 categories:
 - Data Science
-- Analytics
 tags:
 - data science
 - analytics
