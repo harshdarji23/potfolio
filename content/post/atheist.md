@@ -16,8 +16,6 @@ keywords:
 - philosophy
 - food for thought
 - mythology
----
-
 
 <!--more-->
 
