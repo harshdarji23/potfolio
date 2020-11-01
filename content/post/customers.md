@@ -4,7 +4,6 @@ slug: How-to-Identify-Potential-Customers-Among-the-Crowd
 date: 2020-04-29
 categories:
 - Data Science
-- Machine Learning
 tags:
 - data science
 - customer segmentation
