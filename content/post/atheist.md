@@ -7,8 +7,7 @@ metaAlignment: center
 coverMeta: out
 date: 2018-07-20
 categories:
-- philosophy
-- food for thought
+- Thoughts
 tags:
 - philosophy
 - food for thought
