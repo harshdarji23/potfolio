@@ -10,7 +10,6 @@ tags:
 - deployment
 keywords:
 - full-stack
-- machine learning
 - data science
 - deployment
 - data science
