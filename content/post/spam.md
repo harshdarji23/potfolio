@@ -3,7 +3,6 @@ title: "Building the SMS spam detector"
 date: 2019-12-24
 categories:
   - Data Science
-  - Machine Learning
 tags:
   - data science
   - machine learning
