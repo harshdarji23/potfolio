@@ -15,7 +15,7 @@
 baseURL = "https://www.harshdarji.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Harsh Darji🌞 "
+title = "Harsh Darji 🌞 "
 theme = "hugo-tranquilpeak-theme"
 #disqusShortname = "disqusShortname"
 googleAnalytics = "UA-180848516-1"
