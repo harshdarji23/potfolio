@@ -1,6 +1,6 @@
 ---
 title: "Hey, I am Harsh Darji 🌞"
-Ldate: 2020-10-17T13:41:02-04:00 - Last updated
+date: 2020-10-17T13:41:02-04:00 
 
 ---
 I work at [Zoro](https://www.glassdoor.com/Overview/Working-at-Zoro-EI_IE715657.11,15.htm) on the newly formed Enrichment team as a Merchandising Automation Analyst. 
