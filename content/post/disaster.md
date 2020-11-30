@@ -151,7 +151,7 @@ parameters_ada = {
 }
 cv_ada = GridSearchCV(estimator=pipeline_ada, param_grid=parameters_ada, cv=3, scoring='f1_weighted', verbose=3)
 ```
-
+{{< cta-button “Sign up for free!” “https://sensr.net/auth/users/sign_up 5” >}}
 We save this model as a pickle file so that we do not need to train it again. Code available [here](https://github.com/harshdarji23/Disaster-Response-WebApplication/blob/master/Jupyter%20Notebooks/ML%20Pipeline%20Preparation.ipynb)
 
 ```js
@@ -274,7 +274,7 @@ If it's your first time using Hugo, please check [Hugo official documentation](h
 
 ### For users
 
-To install and configure the theme, consult the following documentation : [user documentation](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md)
+To install and configure the theme, consult the following documentation : [user documentation](https://githubh.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md)
 
 ### For developers
 
