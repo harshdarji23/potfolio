@@ -18,6 +18,8 @@ keywords:
 - mythology
 ---
 After reading this blog, it will not really matter whether you are an atheist or not.
+
+<iframe src="https://harshdarji.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 <!--more-->
 So, my granny have been reading Mahabharata because so called month “Shravan” is approaching. Being a fan of mythology, I tossed couple of questions at her which she answered philosophically. I wasn’t satisfied so I corroborated innumerable amount of articles over the internet.
 
