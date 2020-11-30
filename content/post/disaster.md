@@ -151,7 +151,7 @@ parameters_ada = {
 }
 cv_ada = GridSearchCV(estimator=pipeline_ada, param_grid=parameters_ada, cv=3, scoring='f1_weighted', verbose=3)
 ```
-{{< cta-button “Sign up for free!” “https://sensr.net/auth/users/sign_up 5” >}}
+
 We save this model as a pickle file so that we do not need to train it again. Code available [here](https://github.com/harshdarji23/Disaster-Response-WebApplication/blob/master/Jupyter%20Notebooks/ML%20Pipeline%20Preparation.ipynb)
 
 ```js
@@ -171,6 +171,7 @@ We will create a train_classifer.py to create functions that will transform, loa
 ## Conclusion
 Build a full-stack multi-output ML web application to classify messages sent during disasters into different categories and provide quick assistance from different disaster relief organizations. You can run this application on your own computer by following the instructions on my [github](https://github.com/harshdarji23/Disaster-Response-WebApplication).
 
+{{< cta-button “Sign up for free!” “https://sensr.net/auth/users/sign_up 5” >}}
 
 ---
 Thank you for reading!
