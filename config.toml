@@ -105,7 +105,7 @@ canonifyurls = true
   [[menu.links]]
   weight = 1
   identifier = "blog"
-  name = "Goodreads"
+  name = "Blog"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-blog\" title='Blog'></i>"
   url = "https://harshdarji.substack.com/"
   
