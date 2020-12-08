@@ -61,12 +61,12 @@ canonifyurls = true
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user\",title='About'></i>"
   url = "/about"
- [[menu.main]]
-  weight = 6
-  identifier = "list"
-  name = "List"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user\",title='About'></i>"
-  url = "/list50"
+[[menu.main]]
+  weight = 2
+  identifier = "about1"
+  name = "About1"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user\",title='About1'></i>"
+  url = "/about1"
 
 [[menu.main]]
   weight = 4
