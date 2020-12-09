@@ -20,9 +20,6 @@ If you want to add your site to this showcase, click [here](https://github.com/k
 - description (optional)
 
 
-## Eric Bouchut's blog
-
-[![Eric Bouchut's blog](http://i.imgur.com/zQmKIKNm.png)](http://ericbouchut.com/)
 
 ## Robin Hu's blog
 
@@ -44,7 +41,54 @@ If you want to add your site to this showcase, click [here](https://github.com/k
 
 [![Xiaoyun Yang's blog](https://i.imgur.com/vVRSvhpm.png)](http://xiaoyunyang.github.io/)
 
+## Alfred E. Lin's blog
 
+[![Alfred E. Lin's blog](https://i.imgur.com/lHwsvIJm.png)](http://alfredlin.com/)
 
+## Philipp Gärtner's blog
 
+[![Philipp Gärtner's blog](https://i.imgur.com/Sx6oXnSm.png)](https://philippgaertner.github.io/)
 
+## Sagar Khatri's blog
+
+[![Sagar Khatri's blog](https://i.imgur.com/edZ3PO9m.png)](https://www.ragasirtahk.tk/)
+
+## Dr. Cruz Rincón's blog
+
+[![Dr. Cruz Rincón's blog](https://i.imgur.com/XazQAolm.png)](https://www.cruzrincon.com.ve/)
+
+## Björn Oettinghaus's blog
+
+[![Björn Oettinghaus's blog](https://i.imgur.com/8vSMWIam.png)](https://www.datisticsblog.com/)
+
+## Ivan Fadila Putra's blog
+
+[![Ivan Fadila Putra's blog](https://i.imgur.com/r7tJa2Lm.png)](https://ffadilaputra.github.io/)
+
+## BALLOON a.k.a. Fu-sen's blog
+
+[![BALLOON a.k.a. Fu-sen's blog](https://i.imgur.com/ThaDHyfm.png)](https://balloon.gq/)
+
+## Yue Hao's blog
+
+[![Yue Hao's blog](https://i.imgur.com/CDDrTr4m.png)](https://yueyvettehao.netlify.com/)
+
+## Adrian Riyadi's blog
+
+[![Adrian Riyadi's blog](https://i.imgur.com/s6yB9lFm.png)](https://blog.adrian.id/)
+
+## Vijay Mateti's blog
+
+[![Vijay Mateti's blog](https://i.imgur.com/8LMItYSm.png)](https://vijaymateti.com/)
+
+## Walid Benchaa's blog
+
+[![Walid Benchaa's blog](https://i.imgur.com/8yn9DaOm.png)](https://rekkodo.gitlab.io/)
+
+## Stella Wang's blog
+
+[![Stella Wang's blog](https://i.imgur.com/F0jVpsOm.png)](https://hiwanglong.github.io/)
+
+## Aditya Mangal's blog
+
+[![Aditya Mangal's blog](https://i.imgur.com/FKrnNGlm.png)](https://www.adityamangal.com/)
