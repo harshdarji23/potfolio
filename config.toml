@@ -71,8 +71,8 @@ canonifyurls = true
   weight = 4
   identifier = "shelf"
   name = "My Shelf"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user\",title='My Shelf'></i>"
-  url = "/photography"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-book\",title='My Shelf'></i>"
+  url = "/shelf1"
 
 [[menu.main]]
   weight = 5
