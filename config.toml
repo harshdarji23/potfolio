@@ -69,10 +69,10 @@ canonifyurls = true
   url = "/list50"
 [[menu.main]]
   weight = 4
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user\",title='About'></i>"
-  url = "/about"
+  identifier = "shelf"
+  name = "My Shelf"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user\",title='My Shelf'></i>"
+  url = "/shelf"
 
 [[menu.main]]
   weight = 5
