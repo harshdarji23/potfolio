@@ -67,21 +67,28 @@ canonifyurls = true
   name = "List 50"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-check\",title='List 50'></i>"
   url = "/list50"
-
-[[menu.main]]
-  weight = 5
-  identifier = "categories"
-  name = "Categories"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-  url = "/categories"
 [[menu.main]]
   weight = 4
+  identifier = "shelf"
+  name = "My Shelf"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-check\",title='My Shelf'></i>"
+  url = "/shelf"
+[[menu.main]]
+  weight = 5
   identifier = "tags"
   name = "Tags"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
   url = "/tags"
+
 [[menu.main]]
   weight = 6
+  identifier = "categories"
+  name = "Categories"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  url = "/categories"
+
+[[menu.main]]
+  weight = 7
   identifier = "archives"
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
