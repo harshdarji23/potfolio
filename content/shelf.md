@@ -5,8 +5,6 @@ date: 2015-06-14
 categories:
 - tranquilpeak
 - showcase
-thumbnailImagePosition: left
-thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg
 ---
 
 Here you can find a list of the blogs that use Tranquilpeak theme, with different styles and customizations.
