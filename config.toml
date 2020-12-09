@@ -70,8 +70,8 @@ canonifyurls = true
 [[menu.main]]
   weight = 4
   identifier = "shelf"
-  name = "My Shelf"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-book\",title='My Shelf'></i>"
+  name = "Wisdom Shelf"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-book\",title='Wisdom Shelf'></i>"
   url = "/shelf1"
 
 [[menu.main]]
