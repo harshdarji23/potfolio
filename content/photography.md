@@ -1,28 +1,24 @@
 ---
-title: "Who's using Tranquilpeak Hugo Theme"
-slug: who-is-using-tranquilpeak-hugo-theme
-date: 2015-06-14
+title: "Image gallery showcase"
+date: 2013-02-18
+thumbnailImagePosition: left
+thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/image-gallery-showcase/city-140.jpg
+<!--->
+gallery:
+- //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-31.jpg //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-31.jpg "Mercedes"
+- //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-9.jpg //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-9.jpg "Lamborghini"
+- //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-10.jpg //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-10.jpg "Nissan"
+- //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-27.jpg "Mercedes"
+- //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-4.jpg "Ferrari"
+- //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-26.jpg "Lamborghini"
+- //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-18.jpg
+---->
 categories:
 - tranquilpeak
-- showcase
+- features
+tags:
+- image gallery
 ---
 
-Here you can find a list of the blogs that use Tranquilpeak theme, with different styles and customizations.
-
+And here is the image gallery!
 <!--more-->
-
-If you want to add your site to this showcase, click [here](https://github.com/kakawait/hugo-tranquilpeak-theme/issues/new?title=Add%20my%20blog%20into%20the%20showcase&body=Hey,%20add%20my%20blog%20into%20the%20showcase:) and fill the following information:
-
-- public url
-- name (optional)
-- description (optional)
-
-
-
-## Robin Hu's blog
-
-[![Robin Hu's blog](https://i.imgur.com/7SujaMam.png)](http://robinforest.net/)
-
-## Zentechnista's blog
-
-[![Zentechnista's blog](https://i.imgur.com/7zN7WMMm.png)](https://zentechnista.github.io/)
