@@ -1,4 +1,10 @@
-Hey What's up?
+---
+title: "Wisdom Shelf 📚"
+date: 2020-12-10T13:41:02-04:00 
+
+---
+Although I started reading books a little late in life, I have built the habit of reading slowly, and now I thoroughly enjoy reading books related to continuous improvement, productivity, startups, and sports. These are a sample of books that have expanded my mind and been my greatest teachers.
+
 
 
 |  [![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344266315l/3228917.jpg)](https://www.notion.so/Outliers-58d6160d1453405eb6d289248a8bb374)| [![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545421684l/43306206._SY475_.jpg)](https://www.notion.so/The-Courage-to-be-disliked-43ce72de046b4a72aa5c638779b2352a) | [![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554211384l/44770129._SY475_.jpg)](https://www.notion.so/Ultralearning-2507ce63b4564f0482a544749e31b1f1)  |[![](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436742344l/18770267._SY475_.jpg)](https://www.notion.so/Make-It-Stick-3cba03539ae4407cbe864075426c58a4) |
