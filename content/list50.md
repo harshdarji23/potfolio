@@ -3,6 +3,8 @@ title: "50 thigs I want to do before I turn 50 🎯"
 date: 2020-12-10T13:41:02-04:00 
 
 ---
+
+
 1. Adopt a dog
 2. Learn Mandarin
 3. Read 500 books
