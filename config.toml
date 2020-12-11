@@ -95,7 +95,19 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
   url = "/archives"
 
-
+[[menu.links]]
+  weight = 1
+  identifier = "blog"
+  name = "Blog"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\" title='Blog'></i>"
+  url = "https://harshdarji.substack.com/"
+  
+[[menu.links]]
+  weight = 2
+  identifier = "linkedin"
+  name = "Linkedin"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\" title='LinkedIn'></i>"
+  url = "https://www.linkedin.com/in/harshdarji23/"
 [[menu.links]]
   weight = 3
   identifier = "github"
@@ -109,26 +121,16 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
   url = "https://twitter.com/harshdarji_4"
   
-  [[menu.links]]
-  weight = 2
-  identifier = "linkedin"
-  name = "Linkedin"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\" title='LinkedIn'></i>"
-  url = "https://www.linkedin.com/in/harshdarji23/"
+
   
-  [[menu.links]]
-  weight = 1
-  identifier = "blog"
-  name = "Blog"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\" title='Blog'></i>"
-  url = "https://harshdarji.substack.com/"
+
   
-  [[menu.links]]
-  weight = 5
-  identifier = "medium"
-  name = "Medium"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-medium\" title='Medium'></i>"
-  url = "https://medium.com/@harshdarji_15896"
+ # [[menu.links]]
+ # weight = 5
+ # identifier = "medium"
+ # name = "Medium"
+ # pre = "<i class=\"sidebar-button-icon fa fa-lg fa-medium\" title='Medium'></i>"
+ # url = "https://medium.com/@harshdarji_15896"
 
 #[[menu.misc]]
  # weight = 1
@@ -173,7 +175,7 @@ canonifyurls = true
   #    large sidebar is swiped on all lower screens
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 2
+  sidebarBehavior = 3
 
   # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
   # There is many free CDN like Cloudinary or you can also use indirectly
