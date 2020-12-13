@@ -15,3 +15,5 @@ date: 2020-12-10T13:41:02-04:00
 8. Go on a 7-Day silent meditation retreat
 9. Write and publish a book
 10. Visit 50 countries
+11. Start a YouTube channel
+ 
