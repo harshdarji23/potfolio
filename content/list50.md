@@ -1,5 +1,5 @@
 ---
-title: "50 thigs I want to do before I turn 50 🎯"
+title: "50 things I want to do before I turn 50 🎯"
 date: 2020-12-10T13:41:02-04:00 
 
 ---
