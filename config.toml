@@ -73,12 +73,12 @@ canonifyurls = true
   name = "Wisdom Shelf"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-book\",title='Wisdom Shelf'></i>"
   url = "/shelf"
- [[menu.main]]
-  weight = 5
-  identifier = "gallery"
-  name = "Gallery"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-picture-o\"></i>"
-  url = "/gallery"
+ #[[menu.main]]
+  #weight = 5
+  #identifier = "gallery"
+  #name = "Gallery"
+  #pre = "<i class=\"sidebar-button-icon fa fa-lg fa-picture-o\"></i>"
+  #url = "/gallery"
 
 #[[menu.main]]
  # weight = 5
