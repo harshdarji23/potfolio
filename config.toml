@@ -77,7 +77,7 @@ canonifyurls = true
   weight = 5
   identifier = "gallery"
   name = "Gallery"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-picture-o\"></i>"
   url = "/gallery"
 
 #[[menu.main]]
