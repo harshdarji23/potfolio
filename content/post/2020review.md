@@ -70,5 +70,5 @@ People that have inspired me the most this year:
 
 What are the things that have impacted you the most in 2020? I hope each one of you achieves your goals and fulfills your wildest dreams and do not forget to have fun!
 
-If you are interested in learning what I am up to in 2021, please subscribe to my [newsletter](https://harshdarji.substack.com/subscribe ) here or follow me on [Twitter](https://twitter.com/harshdarji_4)!
+If you are interested in learning what I am up to in 2021, please subscribe to my [newsletter](https://harshdarji.substack.com/subscribe ) here or follow me on [Twitter](https://twitter.com/harshdarji_4)
 
