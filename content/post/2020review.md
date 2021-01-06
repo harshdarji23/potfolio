@@ -9,7 +9,7 @@ keywords:
 - career
 autoThumbnailImage: false
 thumbnailImagePosition: "left"
-thumbnailImage: "https://miro.medium.com/max/875/0*s6tzx9iUTs9Qr52q"
+thumbnailImage: "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F70d40327-8c0f-41a4-a3d2-7857fe71f14c%2FIMG_0527.jpg?table=block&id=c2e1e36b-b0d4-4619-bc0f-794219607bce&width=3070&userId=579e2638-216b-4491-a87f-2f53d163abaf&cache=v2"
 #coverImage: //d1u9biwaxjngwg.cloudfront.net/welcome-to-tranquilpeak/city.jpg
 metaAlignment: center
 ---
