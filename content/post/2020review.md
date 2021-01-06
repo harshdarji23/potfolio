@@ -16,7 +16,7 @@ metaAlignment: center
 When I started 2020, like many, I had set goals and resolutions for myself. 
 But when I began goal setting for 2021, I realized that I failed to achieve most of my goals for 2020. 
 So, I reached out to [Kavir](https://twitter.com/KavirKaycee) on Twitter because I highly resonated with his Tweets to seek help with goal setting and I received fabulous advice on doing a review of the year to better understand myself, my goals, and what has impacted me the most. 
-I have used Kavir's [framework](https://twitter.com/KavirKaycee/status/1215342727136600064?s=20) and [Troy Shu's](https://www.linkedin.com/in/troyshu/) [template](https://docs.google.com/document/d/1J_SMilIOZz032ntcMgKelbxe8irqZm6KSlAMG93YHvY/edit) to structure my thoughts and review my 2020.
+I have used Kavir's [framework](https://twitter.com/KavirKaycee/status/1215342727136600064?s=20) and [Troy Shu's](https://www.linkedin.com/in/troyshu/)  [template](https://docs.google.com/document/d/1J_SMilIOZz032ntcMgKelbxe8irqZm6KSlAMG93YHvY/edit) to structure my thoughts and review my 2020.
 
 # Health 🧠
 ### Emotional Well-being
@@ -39,6 +39,10 @@ I have also worked on a couple of side projects:
 2. [Will Your Education Pay You Well?](https://www.harshdarji.com/2020/01/will-your-education-pay-you-well/)
 3. [How to Identify Potential Customers Among the Crowd?](https://www.harshdarji.com/2020/04/how-to-identify-potential-customers-among-the-crowd/)
 
+No one can compete with you on being you. This year I am going to focus on learning and building things I am genuinely passionate about - sports, product data science, game theory, and startups that have disrupted the traditional models (Airbnb, Uber, Doordash)
+
+[Ultralearning](https://www.notion.so/Ultralearning-2507ce63b4564f0482a544749e31b1f1) by Scott Young has changed my outlook towards learning and I am confident I can delve into unchartered territories whether or not I have the right background.
+
 # Relationship 👩🏼‍🤝‍🧑🏼
 
 Although I did not see my family this year, I have gotten closer to them. Regular video calls with my sister and my mom kept me sane. I know my family is not perfect, but this year I have learned to appreciate them as they are. I am excited to see them for my graduation in 2021 and visit NYC and Florida with them.
@@ -47,9 +51,6 @@ When it comes to friends, I noticed that I have a lot of friends but not a lot o
 
 It's been quite long since I actually dated and I was too occupied with myself to even consider dating. I have spoken to several potential mates but rejected the idea of dating because I get bored of them or judge them based on their appearances. As I want a lot from myself, I expect a lot from my potential partner and that's one of the reasons I have not dated anyone. I need to go beyond looks and look for an emotional connection and availability. Also, another excuse I gave myself was that I am in grad school and I am looking for a job so I do not have time. But now that I have a job and I am emotionally stable, I will go out on more dates, explore various relationships and go beyond beauty!
 
-No one can compete with you on being you. This year I am going to focus on learning and building things I am genuinely passionate about - sports, product data science, game theory, and startups that have disrupted the traditional models (Airbnb, Uber, Doordash)
-
-[Ultralearning](https://www.notion.so/Ultralearning-2507ce63b4564f0482a544749e31b1f1) by Scott Young has changed my outlook towards learning and I am confident I can delve into unchartered territories whether or not I have the right background.
 
 # Fun 🤟🏼
 
