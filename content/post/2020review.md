@@ -18,7 +18,7 @@ But when I began goal setting for 2021, I realized that I failed to achieve most
 So, I reached out to [Kavir](https://twitter.com/KavirKaycee) on Twitter because I highly resonated with his Tweets to seek help with goal setting and I received fabulous advice on doing a review of the year to better understand myself, my goals, and what has impacted me the most. 
 I have used Kavir's [framework](https://twitter.com/KavirKaycee/status/1215342727136600064?s=20) and [Troy Shu's](https://www.linkedin.com/in/troyshu/) [template](https://docs.google.com/document/d/1J_SMilIOZz032ntcMgKelbxe8irqZm6KSlAMG93YHvY/edit) to structure my thoughts and review my 2020.
 
-# HEALTH
+# Health 🧠
 ### Emotional Well-being
 {{< twitter 1005107581289824256 >}}
 
@@ -30,8 +30,8 @@ Reading [Atomic Habits](https://www.amazon.com/Atomic-Habits-Proven-Build-Break/
 
 I have always enjoyed staying outdoors either playing cricket or basketball or working out at the gym but due to the lockdown, I was not able to do either of those things. Around July I was in the worst shape of my life at 78 kgs with body fat of 14%. That's when I started running 3 miles a day with a friend but I did not enjoy running and stopped after 2 weeks. Luckily the gyms opened and I was excited to get back at it but they shut it down soon and to reduce my weight I began tracking my calories and significantly reduced the intake to 1500 Kcal. I really enjoy playing sports and working out so I believe it's not going to be a lot of a hassle to get back to what I like doing. However, I am targeting a single digit body fat percentage before my birthday which is in 5 months from now and become flexible. This is going to be challenging yet fun.
 
-# CAREER
-I had taken multiple classes related to machine learning, statistics, and analytics and I found data science very interesting but the job market was very varied. You had to pick jobs related to machine learning, data engineering/business intelligence, or product data science. You cannot do everything and to prepare for each area was exhaustive. I was lucky to stumble upon [Emma's blog](https://towardsdatascience.com/how-i-got-4-data-science-offers-and-doubled-my-income-2-months-after-being-laid-off-b3b6d2de6938) and get clarity on the skills required for breaking into Data Science. I highly recommend subscribing to her [YouTube channel](https://www.youtube.com/c/DataInterviewPro) as she shares details about interviews, networking, and developing skills for data science. I had an interview with Zoro in April but they decided to hire internally, I kept in touch with them and they reached out to me with an opportunity in September to work as a Merchandising Analyst. This year I started my first full-time role remotely and I feel all my worries have settled down. My role is in the business team and I operate somewhere in the intersection of product, data, and automation to build a scalable solution to collect and enrich product information.
+# Career 👨🏼‍💻
+I had taken multiple classes related to machine learning, statistics, and analytics and I found data science very interesting but the job market was very varied. You had to pick jobs related to machine learning, data engineering/business intelligence, or product data science. You cannot do everything and to prepare for each area was exhaustive. I was lucky to stumble upon [Emma's blog](https://towardsdatascience.com/how-i-got-4-data-science-offers-and-doubled-my-income-2-months-after-being-laid-off-b3b6d2de6938) and get clarity on the skills required for breaking into Data Science. I highly recommend subscribing to her [YouTube channel](https://www.youtube.com/c/DataInterviewPro) as she shares details about interviews, networking, and developing skills for data science. I had an interview with Zoro in April but they decided to hire internally, I kept in touch with them and they reached out to me with an opportunity in September to work as a Merchandising Analyst. This year I started my first full-time role remotely and I feel all my worries have settled down. My role is in the business team and I operate somewhere in the intersection of product, data, and automation to build a scalable solution to collect and enrich product information.
 
 I have also worked on a couple of side projects:
 
@@ -39,7 +39,7 @@ I have also worked on a couple of side projects:
 2. [Will Your Education Pay You Well?](https://www.harshdarji.com/2020/01/will-your-education-pay-you-well/)
 3. [How to Identify Potential Customers Among the Crowd?](https://www.harshdarji.com/2020/04/how-to-identify-potential-customers-among-the-crowd/)
 
-# RELATIONSHIP
+# Relationship 👩🏼‍🤝‍🧑🏼
 
 Although I did not see my family this year, I have gotten closer to them. Regular video calls with my sister and my mom kept me sane. I know my family is not perfect, but this year I have learned to appreciate them as they are. I am excited to see them for my graduation in 2021 and visit NYC and Florida with them.
 
@@ -51,7 +51,7 @@ No one can compete with you on being you. This year I am going to focus on learn
 
 [Ultralearning](https://www.notion.so/Ultralearning-2507ce63b4564f0482a544749e31b1f1) by Scott Young has changed my outlook towards learning and I am confident I can delve into unchartered territories whether or not I have the right background.
 
-# FUN
+# FUN 🤟🏼
 
 As I am writing this, I have noticed that fun and learning are interconnected for me which is not necessarily bad but the problem is I don't do things for the sake of it or just for the pleasure but for competing and winning. This year I want to do things just for pure fun and without seeking any benefits. I have never been a reader in my life, but surprisingly I found my type of books and was able to read around [10 books](https://www.notion.so/Book-Reading-Tracker-89130c3508a8494bbfabc73547d18445) this year. I layed a lot of PubG and chess in the first half of 2020 then I felt guilty for wasting a lot of time. I did watch a fair number of movies and TV shows, [The Last Dance](https://www.netflix.com/title/80203144) and [The Queen's Gambit](https://www.netflix.com/title/80234304) being my favorite. I enjoyed watching NBA and my favorite NBA player (LeBron James) winning The Championship made 2020 joyful. Lastly, I treated myself to a trip to Phoenix - Vegas - the Grand Canyon - Sedona and it's one of the nicest places I have ever been to.
 
