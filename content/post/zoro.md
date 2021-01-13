@@ -21,7 +21,7 @@ I work at Zoro on the newly formed Enrichment team as a Merchandising Automation
 Of course, finding a job in the middle of a pandemic was an uphill task, but I was lucky enough to have received one more offer with a brokerage firm in New York. But I choose to work with Zoro primarily because I had this weird nice vibe from the people at Zoro, and I was not sure of working in the finance sector. You might be thinking I am crazy to let go of New York and 1000s of dollars, but my intention has always been clear: people>package. So, here I am sharing my first two months at Zoro and see if I was right about my first intuition of Zoro.
 
 "You're The Average Of The Five People You Spend The Most Time With" - Jim Rohn
-# Humans of Zoro 🧠
+# Humans of Zoro 👩🏻‍🤝‍🧑🏼
 Funny story, I had interviewed at Zoro for a different role around mid of March, but they decided to hire somebody internally. Instead of taking it as a setback, I took this as an opportunity to get feedback and figure out how I can improve. I was lucky enough to get feedback about my interview from Vahid, who is Sr. Search Analyst and holds a Ph.D. in Physics. I say, 'Lucky enough' because who provides feedback these days? Like me, Vahid is also an immigrant and one of the most down to earth and helpful person I have ever met. Unknowingly, I found a mentor in him, we kept in touch over LinkedIn, and he motivated & supported me throughout my job search. Around September the HR reached out to me regarding this role of Merchandising Automation Analyst, and I straight away contacted Vahid to learn more about the role and see if I could be a good fit. And here I am working as an Analyst at Zoro, and I couldn't have asked for more. Even after joining Zoro, Vahid would check up on me and see how I am doing, and I am very glad and thankful to have met Vahid! Is it too soon to say that life has come to a full circle? 😛
 
 No one in my family has ever had a corporate job, so I didn't know what to expect from my manager aka "The boss". So, I had developed this image in my head mainly from Indian Bollywood movies that your manager is superior, you have to behave in a certain way around him and you cannot ask a lot of questions nor disagree with his views. But I am so glad that my manager has helped me to break this myth and has encouraged me to put my views forward not only in front of him but also the President and the entire company. I had my first interaction with my manager in March, and he was just helping another team to fill an opening for a Search Analyst. During my virtual interview, he had this hangout background of phytoplankton and fishes, and he pretended like he was scuba diving, I was like if I get this job I want to get to know this chill and laid-back person. Since joining Zoro, I have asked thousands of questions about the team, strategy, benefits, revenue, profits and even getting access to different software. He could have easily asked me to contact the HR team or the technical support team instead he chose to clear all my doubts patiently and with utter transparency. He is aware of my interest in Data Science and analytics, and he's supportive if I ever want to switch teams, and that's the best part I like about him. You want your manager to not only be involved in your project but also in your professional progression, and I am very happy to have my manager who's empathetic and supportive of my goals! Also, my manager's GIFs game >>>> your manager's GIFs game.
@@ -41,14 +41,14 @@ Everybody's working from home, but the team has taken some great initiatives to 
 
 I want to become a great leader, so I reached out to the leaders at Zoro to get advice, and I asked them four questions, and here are their answers:
 1. What's one book that you have read that had the most impact on you?
-Siddhartha by Herman hesse
-From Good to Great
-Dare to Lead
-Culture Code
-Caste
-How to be an Antiracist
-Becoming
-Know My Name
+- Siddhartha by Herman hesse
+- From Good to Great
+- Dare to Lead
+- Culture Code
+- Caste
+- How to be an Antiracist
+- Becoming
+- Know My Name
 A brief history of Time
 Astrophysics for People in a Hurry
 2. What's one skill that has helped you to shape your career?
