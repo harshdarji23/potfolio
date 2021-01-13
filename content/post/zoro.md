@@ -9,7 +9,7 @@ keywords:
 - career
 autoThumbnailImage: false
 thumbnailImagePosition: "left"
-thumbnailImage: "https://www.zoro.com/static/cms/img/logos/zoro-logo-color-one-line-dot-com-high-res.png"
+thumbnailImage: ""
 #coverImage: //d1u9biwaxjngwg.cloudfront.net/welcome-to-tranquilpeak/city.jpg
 metaAlignment: center
 ---
@@ -20,7 +20,7 @@ I work at Zoro on the newly formed Enrichment team as a Merchandising Automation
 
 Of course, finding a job in the middle of a pandemic was an uphill task, but I was lucky enough to have received one more offer with a brokerage firm in New York. But I choose to work with Zoro primarily because I had this weird nice vibe from the people at Zoro, and I was not sure of working in the finance sector. You might be thinking I am crazy to let go of New York and 1000s of dollars, but my intention has always been clear: people>package. So, here I am sharing my first two months at Zoro and see if I was right about my first intuition of Zoro.
 
-"You're The Average Of The Five People You Spend The Most Time With" - Jim Rohn
+#### "You're The Average Of The Five People You Spend The Most Time With" - Jim Rohn
 # Humans of Zoro 👩🏻‍🤝‍🧑🏼
 Funny story, I had interviewed at Zoro for a different role around mid of March, but they decided to hire somebody internally. Instead of taking it as a setback, I took this as an opportunity to get feedback and figure out how I can improve. I was lucky enough to get feedback about my interview from Vahid, who is Sr. Search Analyst and holds a Ph.D. in Physics. I say, 'Lucky enough' because who provides feedback these days? Like me, Vahid is also an immigrant and one of the most down to earth and helpful person I have ever met. Unknowingly, I found a mentor in him, we kept in touch over LinkedIn, and he motivated & supported me throughout my job search. Around September the HR reached out to me regarding this role of Merchandising Automation Analyst, and I straight away contacted Vahid to learn more about the role and see if I could be a good fit. And here I am working as an Analyst at Zoro, and I couldn't have asked for more. Even after joining Zoro, Vahid would check up on me and see how I am doing, and I am very glad and thankful to have met Vahid! Is it too soon to say that life has come to a full circle? 😛
 
@@ -37,10 +37,10 @@ We have this slack channel #PetsOfZoro where people share cute pictures of their
 # Gamers of Zoro 🎮
 
 Everybody's working from home, but the team has taken some great initiatives to build a connection with each other and have fun! There's a mindfulness session where we discuss mental health. We also have a channel #AmongUs where we play among us!. Also, a channel to discuss basketball, ha-ha love it! Oh, and Zoro loves dad jokes, here's a few of them.
-
+{{< image classes="fancybox fig-100" src="https://github.com/harshdarji23/potfolio/blob/master/static/images/gamers.PNG" thumbnail="https://github.com/harshdarji23/potfolio/blob/master/static/images/gamers.PNG" >}}
 
 I want to become a great leader, so I reached out to the leaders at Zoro to get advice, and I asked them four questions, and here are their answers:
-### 1. What's one book that you have read that had the most impact on you?
+#### 1. What's one book that you have read that had the most impact on you?
 - Siddhartha by Herman hesse
 - From Good to Great
 - Dare to Lead
@@ -51,17 +51,18 @@ I want to become a great leader, so I reached out to the leaders at Zoro to get 
 - Know My Name
 - A brief history of Time
 - Astrophysics for People in a Hurry
-### 2. What's one skill that has helped you to shape your career?
+#### 2. What's one skill that has helped you to shape your career?
 - Understanding and empathizing with people
 - Being data-driven, delivering results, and being a lifelong learner
 - Curiosity
-### 3. What's the one skill/technology that you are learning to prepare yourself for the coming decade?
+#### 3. What's the one skill/technology that you are learning to prepare yourself for the coming decade?
 - Data Science / ML business applications
 - Creating trusting relationships and delegation with cross-functional partners
-### 4. What's the one piece of advice you would have given to yourself when you were starting your first job?
+#### 4. What's the one piece of advice you would have given to yourself when you were starting your first job?
 - It's okay to fail. Failing leads to learning and self-awareness. Failing early often builds character.
 - Always have an idea of the next job that you think you would want to be in. Figure out the skills that will be necessary to get a job like that and make sure that you A) Are delivering results for the job you already have an B) Are gaining skills for the job you want next.
 
 It feels like I am still in my grad school where there are a lot of fun things going around, but at the same time learning curve is growing exponentially. My teammates are like my roommates who're always available to hang out and provide a morale boost. I feel appreciated here, and though Zoro may not be the top tech company, it is all I need to grow and succeed!
+
 If you are interested in learning what I am up to in 2021, please subscribe to my newsletter [here](https://harshdarji.substack.com/subscribe ) or follow me on [Twitter](https://twitter.com/harshdarji_4)
 
