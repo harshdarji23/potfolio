@@ -40,7 +40,7 @@ Everybody's working from home, but the team has taken some great initiatives to 
 
 
 I want to become a great leader, so I reached out to the leaders at Zoro to get advice, and I asked them four questions, and here are their answers:
-1. What's one book that you have read that had the most impact on you?
+### 1. What's one book that you have read that had the most impact on you?
 - Siddhartha by Herman hesse
 - From Good to Great
 - Dare to Lead
@@ -49,18 +49,18 @@ I want to become a great leader, so I reached out to the leaders at Zoro to get 
 - How to be an Antiracist
 - Becoming
 - Know My Name
-A brief history of Time
-Astrophysics for People in a Hurry
-2. What's one skill that has helped you to shape your career?
-Understanding and empathizing with people
-Being data-driven, delivering results, and being a lifelong learner
-Curiosity
-3. What's the one skill/technology that you are learning to prepare yourself for the coming decade?
-Data Science / ML business applications
-Creating trusting relationships and delegation with cross-functional partners
-4. What's the one piece of advice you would have given to yourself when you were starting your first job?
-It's okay to fail. Failing leads to learning and self-awareness. Failing early often builds character.
-Always have an idea of the next job that you think you would want to be in. Figure out the skills that will be necessary to get a job like that and make sure that you A) Are delivering results for the job you already have an B) Are gaining skills for the job you want next.
+- A brief history of Time
+- Astrophysics for People in a Hurry
+### 2. What's one skill that has helped you to shape your career?
+- Understanding and empathizing with people
+- Being data-driven, delivering results, and being a lifelong learner
+- Curiosity
+### 3. What's the one skill/technology that you are learning to prepare yourself for the coming decade?
+- Data Science / ML business applications
+- Creating trusting relationships and delegation with cross-functional partners
+### 4. What's the one piece of advice you would have given to yourself when you were starting your first job?
+- It's okay to fail. Failing leads to learning and self-awareness. Failing early often builds character.
+- Always have an idea of the next job that you think you would want to be in. Figure out the skills that will be necessary to get a job like that and make sure that you A) Are delivering results for the job you already have an B) Are gaining skills for the job you want next.
 
 It feels like I am still in my grad school where there are a lot of fun things going around, but at the same time learning curve is growing exponentially. My teammates are like my roommates who're always available to hang out and provide a morale boost. I feel appreciated here, and though Zoro may not be the top tech company, it is all I need to grow and succeed!
 If you are interested in learning what I am up to in 2021, please subscribe to my newsletter [here](https://harshdarji.substack.com/subscribe ) or follow me on [Twitter](https://twitter.com/harshdarji_4)
