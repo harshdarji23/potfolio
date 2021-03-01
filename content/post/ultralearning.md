@@ -62,12 +62,12 @@ There are plenty of resources available online and I have carefully selected som
 - [HackRank SQL problems](https://www.hackerrank.com/domains/sql?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=sql)
 - [Interview Query SQL problems](https://www.interviewquery.com/)
 
-### tatistics
+### Statistics
 
 - [Online Stat Book](http://onlinestatbook.com/2/index.html)
 - [Practical Stats for DS](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/1491952962/ref=sr_1_1?ie=UTF8&qid=1530849206&sr=8-1&keywords=practical+statistics+for+data+scientists)
 
-### xperimentation
+### Experimentation
 
 - [Udacity course](https://www.udacity.com/course/ab-testing--ud257)
 - [EXP Platform](https://exp-platform.com/2017abtestingtutorial/)
