@@ -82,14 +82,14 @@ There are plenty of resources available online and I have carefully selected som
 
  Instead of developing each skill individually or working on a full-stack project, I have decided to do Interview based learning. 
  I am using the directness approach which Scott mentions in his book. The principle of directness asserts that it’s actually while doing the thing you want to get good at when much of learning takes place. 
- So, I want to get good at interviews and I believe by directly solving the interview questions I will be able to good at it. 
+ So, I want to get good at interviews and I believe by directly solving the interview questions wll help me to do so. 
  There are plenty of interview questions available over the internet, but here are some of the resources I will be using - InterviewQuery and Glassdoor.
  
- I have also found opportunities within my company to develop my analytical skills and thinking of interesting unanswered questions. My company is an e-commerce company so there are a lot of opportunities to build product skills. My goal is to be a part of at least one experiment so that I can understand the nuances of A/B testing and experimental design. 
+ I have also found opportunities within my company to develop my analytical skills (SQL, data viz, business case, scripting). My company is an e-commerce company so there are a lot of opportunities to build product skills. My goal is to be a part of at least one experiment so that I can understand the nuances of A/B testing and experimental design. 
  When we learn new things, we should always strive to tie them directly to the contexts we want to use them in.
  
 
-Writing brings clarity to me and I believe sharing my solution to these questions will help me to receive feedback and I can improve. I will also be writing regular blog posts about product related questions asked in the interview like: 
+Writing brings clarity to me and I believe sharing my solution to product case questions will help me to receive feedback and I can improve. I will be writing regular blog posts about product related questions asked in the interview like: 
 
 - Let's say that you work for a SAAS company. A PM comes up to you and tells you that users that come from Country X convert from a free trial to paying at a much higher rate than users from Country Y. What would you investigate further to determine why this was happening?
  
