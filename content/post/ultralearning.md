@@ -12,7 +12,8 @@ thumbnailImagePosition: "left"
 thumbnailImage: "https://lh3.googleusercontent.com/hL1UG7NV5QO-m37pS_Z0RIsl5ZVSVYdhroDhUgN6Dzk-OGT5y3B699YO0PG7IzCspVGHgt4RUqxNzNDaSz8jxmBrDE-uNXNl09lCC9z7sSIa9-40sCZo3nS0JoBMfeKTPVUqTv-WpfqLssv0I7MDZ1Y57w-5gNT8HPYzoSA2tbL8zh-0bitg9-GfrGeJkcaQ6kIDbZQBnwKG-iP-5JlSxTZZeN9gAnHu7bemkhq_OeaoWdtWQo72tn1f-8BQ6SusGNdl44iYzoLT2iIhyHtUUhvmImEXAwyKJhLiPX7KEXXo9kR-NJj0OoeEJvORqczMpzxaK5Ur--Fu2EhNhrBvooK9skQnDiIAAlpd_Bgf-gdKFJF5N9ZIuxgiDd3q3GyaQw1g28eGVWhlqBZlTBuL2Inx_xvoaNdIEH3nXNdDjyFf2xJinKbtyac-G0SEZBErASRuHodhiRwuovBOQp8W8J-Rp8JXLEeH4Nh64uokYxwyNOYVkgiV72D9XG1Ws9SwR0aZPxzNdqq1Asq1oVNz4K1gUOi7TTD7DxHi0afxb1zkmCNWjDCuMckZ5oABQmlGuoUUVuRTWbQxKA75QfO9OhJYMQH1YcwfaVKKK8Gu8UMoFzhXuDUpfYEf0jrF49cmWWIbo4hBOo3-RrphoV2XF5CEaKtBLifIgrOMu3o5AACCxr-OvTab0Z80QysXJg=w500-h333-no?authuser=0"
 metaAlignment: center
 ---
-#### *Happiness is not pleasure. Happiness is the expansion of possibilities - Scott Young*
+> Happiness is not pleasure. Happiness is the expansion of possibilities - Scott Young
+
 
 I often wonder what is one thing I am most passionate about, I am aware  I like fitness, sports, e-commerce, and advertising space but I cannot come up with one answer. 
 Is it because I know I am not good at it or am I scared to actually make a career out of it? 
@@ -20,7 +21,7 @@ I thought completing grad school and finding a job will help me to find my passi
 I tried digging into the work of some of the people I admire to find an answer and I came across Cal Newport's book ["So good that they cannot ignore you"](https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124)
 and my mind was literally blown. I was trying to find my passion and within the first 10 pages, Cal said Passion is overrated and the key to be good at anything is to force yourself through the work, force the skills to come and that’s the hardest phase.
 
-#### *I feel like your problem is that you’re trying to judge all things in the abstract before you do them - Cal Newport*
+> *I feel like your problem is that you’re trying to judge all things in the abstract before you do them - Cal Newport*
 
 After understanding the passion hypothesis and pairing it with the learnings from Scott Young's book ["Ultralearning"](https://www.amazon.com/Ultralearning-Master-Outsmart-Competition-Accelerate/dp/006285268X) 
 where he emphasizes we can learn anything irrespective of our background, I have decided to work on building my career capital which is to develop skills in product data science. This is the Ultralearning Product Data Science program that I have prepared for myself to follow for the next 100 days (01/03/21 -  08/06/21) 
