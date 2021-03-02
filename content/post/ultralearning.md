@@ -44,7 +44,7 @@ I know data scientists get paid well that is another important factor I took int
  I read everything that I could find about product data science over the internet and also reached out to a couple of data scientists in my network to learn more about product data science, skills needed, projects I should be working on, interview structure, and the resources I should be using. 
  The product data scientists work closely with product leaders to run experiments and test out different product features. Some of the problems that they work on are:
  
- - **Logging and Instrumentation**. Identifying Data Gaps. Establish good relationships with engineers
+ - **Logging and Instrumentation** - Identifying Data Gaps. Establish good relationships with engineers
 - **Push Notification Analysis** — How many users are eligible for push notifications? across user segment? across clients? What are the tap rates of different push notification types?
 - **SMS Delivery Rates** — How do we calculate Twitter’s SMS delivery rates across different carriers? Are our delivery rates in emerging countries poorer? How can we make them better?
 - **Multiple Accounts** — Why do certain countries have a higher ratio of multiple accounts? What drive people to create multiple account?
