@@ -2,7 +2,8 @@
 title: "Image gallery showcase"
 date: 2013-02-18
 thumbnailImagePosition: left
-thumbnailImage:![image](https://user-images.githubusercontent.com/30519294/110227683-9dba8780-7ec0-11eb-8466-f51f322bd171.png)
+thumbnailImage:>
+![image](https://user-images.githubusercontent.com/30519294/110227683-9dba8780-7ec0-11eb-8466-f51f322bd171.png)
 gallery:
 - //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-9.jpg //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-9.jpg "Lamborghini"
 - //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-10.jpg //d1u9biwaxjngwg.cloudfront.net/tag-plugins-showcase/car-10.jpg "Nissan"
