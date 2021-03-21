@@ -7,7 +7,7 @@ date: 2020-12-10T13:41:02-04:00
 
 1. Adopt a dog
 2. Learn Mandarin
-3. Read 500 books [21/500](https://www.goodreads.com/review/list/86084125-harsh-darji?ref=nav_mybooks&shelf=read)
+3. Read 500 books - [21/500](https://www.goodreads.com/review/list/86084125-harsh-darji?ref=nav_mybooks&shelf=read)
 4. Compete in Olympic Triathlon
 5. Fly an Airplane / Helicopter
 6. Watch a courtside NBA game (hopefully Lakers Vs Celtics)
