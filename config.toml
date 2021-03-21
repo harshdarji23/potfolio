@@ -35,14 +35,15 @@ canonifyurls = true
 [author]
   name = "Harsh Darji"
   bio = "Data Science | Basketball | Productivity"
-  job = "Automation Analyst @ Zoro"
+  job = "Merchandising Analyst @ Zoro"
   location = "Chicago"
   #gmail="hrdarji04"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   #gravatarEmail = "thibaud.lepretre@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "/images/profile.jpg"
+  picture="https://lh3.googleusercontent.com/IscWhCx1e0CVS9mDh2k-rhb46hpHvbcBTU0O-KLtiMJ6z1fZo78ZT9dFEW8sVZF3XC9fzLhRisqgE5Zxni-gypJedCo1URKbzY727zVRq67nnkDezz9-JPQqJlZBOmGytJl107Eccpq1xR1v5qsZLfhabvS7iS5S2LQC8g3noafr30694do5G8i_RHJRjbLeQuq9EFU2WhdGR7thQYa-uQ33HqRT-urAcP6ca5YHchzDYr4mcF6UHr-ty_aJJdOPqrygayBjWHuvYOVScIc-4Q3tE4wBxvivXh9mAUNc5c3vCmCEyTsSDCWCAdpsQKDtA7yO0_BmHUhGDQbzehqThMabFYH-oc5UWwlDPKFj-cNaJlIySpoSHiFNuwY7pNuH_lzAP0FG1T6nUZAO2SFoR9Jdlj4J_4-1brO1xQLlJ_nXO8nz0OllUej5FHnpONI6En4Q7A966b9HYF4JY5paDlfCoNMGPqIsAmidbzvq4HYgLBaWTF04zBWDvCGkjsE3rYqiVCCQn0Uiu-GL_C66iZFS_YauCSzkKx1nsFaB2nV1Uezt8dfpTSRAId12CquvNtdVJN0lCh5X3RbPIura-7PlFArrxIan9AUwrD3-4wMnEVdvE_xHUShvmSf4DM4bozaV9fLH_N2hzm8BQTHVZ8RvH8sS7q7fgQUg22fjPVr8pg61aLBxa7KhIYDBfw=w1355-h903-no?authuser=0"
+  #picture = "/images/profile.jpg"
   # Your Twitter username without the @. E.g : thibaudlepretre
    #twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
