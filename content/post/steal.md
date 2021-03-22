@@ -10,7 +10,7 @@ keywords:
 autoThumbnailImage: false
 thumbnailImagePosition: "left"
 thumbnailImage: "https://lh3.googleusercontent.com/itw1xCt3NJawcu-qwiHQQMWQq06vmpSthlSGirwpl-LTL9T8jubQGavLjw7bK2-8eJ3HHhaMRHce4_j44eT787KRML4uv7T1D92WwcW4_TbNNt_r2HBw5YWyEddzPkEq1_0xP-hFwjQSOZe5C_HMxdhQCrzWbYYAMOXaYbjzioWUXAYAtfmjg5LZdAdEptujMnsvYJRJPh2ZlHOcNw21PP0snSykFBOx5smq79q4ctPiaCPwZuJ2afHizHHE-fLIQwkyALkBXJaQ8Kjgm5pnc-x_U6dpsWEPs3Q_hLwW-FSCFDH6bL69UdVDFOmOI3DecjFO-FjVe33_eClUnaB3SJeRtJpxXItbaVuiSMZLykjz9p4nHGX4CqGAxvyY2Xx4bR6LLFanMBHMQuq-z4X0FSQ3Ec9pWsLMjNLPWSkzHWzwGgLRgZ52_6jdmeVRGSoUfZpmZSEU_nRyHLsNAaElyDW9z4jKcTlVBLez8tuzC65GYAOZXjnLWfCPhfaKX29jMpEy_tFpgXbgZWMpHeVNn1X9ZgJceDhM75pHLzilax9qzQPOQIHcVqOMBZfDoZYDp0S_gr7Sx2arfyZ-hF3D6bNmpwL7VG8_kqqr6IFFY0xl3468Vbz3ehhr_KmP7v-H2ahp5q-VV9W8kZzg3r21hO8JmBWd3AUZO-5jroseQe-QnC0gPbI5mO2XRRP2cp3OI9Iz6FEJ65EHpWFrIrRAD6q9=s833-no?authuser=0"
-coverImage: "https://lh3.googleusercontent.com/itw1xCt3NJawcu-qwiHQQMWQq06vmpSthlSGirwpl-LTL9T8jubQGavLjw7bK2-8eJ3HHhaMRHce4_j44eT787KRML4uv7T1D92WwcW4_TbNNt_r2HBw5YWyEddzPkEq1_0xP-hFwjQSOZe5C_HMxdhQCrzWbYYAMOXaYbjzioWUXAYAtfmjg5LZdAdEptujMnsvYJRJPh2ZlHOcNw21PP0snSykFBOx5smq79q4ctPiaCPwZuJ2afHizHHE-fLIQwkyALkBXJaQ8Kjgm5pnc-x_U6dpsWEPs3Q_hLwW-FSCFDH6bL69UdVDFOmOI3DecjFO-FjVe33_eClUnaB3SJeRtJpxXItbaVuiSMZLykjz9p4nHGX4CqGAxvyY2Xx4bR6LLFanMBHMQuq-z4X0FSQ3Ec9pWsLMjNLPWSkzHWzwGgLRgZ52_6jdmeVRGSoUfZpmZSEU_nRyHLsNAaElyDW9z4jKcTlVBLez8tuzC65GYAOZXjnLWfCPhfaKX29jMpEy_tFpgXbgZWMpHeVNn1X9ZgJceDhM75pHLzilax9qzQPOQIHcVqOMBZfDoZYDp0S_gr7Sx2arfyZ-hF3D6bNmpwL7VG8_kqqr6IFFY0xl3468Vbz3ehhr_KmP7v-H2ahp5q-VV9W8kZzg3r21hO8JmBWd3AUZO-5jroseQe-QnC0gPbI5mO2XRRP2cp3OI9Iz6FEJ65EHpWFrIrRAD6q9=s833-no?authuser=0"
+#coverImage: "https://lh3.googleusercontent.com/itw1xCt3NJawcu-qwiHQQMWQq06vmpSthlSGirwpl-LTL9T8jubQGavLjw7bK2-8eJ3HHhaMRHce4_j44eT787KRML4uv7T1D92WwcW4_TbNNt_r2HBw5YWyEddzPkEq1_0xP-hFwjQSOZe5C_HMxdhQCrzWbYYAMOXaYbjzioWUXAYAtfmjg5LZdAdEptujMnsvYJRJPh2ZlHOcNw21PP0snSykFBOx5smq79q4ctPiaCPwZuJ2afHizHHE-fLIQwkyALkBXJaQ8Kjgm5pnc-x_U6dpsWEPs3Q_hLwW-FSCFDH6bL69UdVDFOmOI3DecjFO-FjVe33_eClUnaB3SJeRtJpxXItbaVuiSMZLykjz9p4nHGX4CqGAxvyY2Xx4bR6LLFanMBHMQuq-z4X0FSQ3Ec9pWsLMjNLPWSkzHWzwGgLRgZ52_6jdmeVRGSoUfZpmZSEU_nRyHLsNAaElyDW9z4jKcTlVBLez8tuzC65GYAOZXjnLWfCPhfaKX29jMpEy_tFpgXbgZWMpHeVNn1X9ZgJceDhM75pHLzilax9qzQPOQIHcVqOMBZfDoZYDp0S_gr7Sx2arfyZ-hF3D6bNmpwL7VG8_kqqr6IFFY0xl3468Vbz3ehhr_KmP7v-H2ahp5q-VV9W8kZzg3r21hO8JmBWd3AUZO-5jroseQe-QnC0gPbI5mO2XRRP2cp3OI9Iz6FEJ65EHpWFrIrRAD6q9=s833-no?authuser=0"
 metaAlignment: center
 ---
 ## The Book in 3 sentences 🎯
@@ -19,7 +19,8 @@ metaAlignment: center
 2. There's nothing new under the sun. Everything that needs to be said has already been said. But, since no one was listening, everything must be said again. So, start copying what you love, add your element to it, and in the act of making things and doing work that you will figure out who you are.
 3. The best way to get approval is to not need it. Don't make excuses for not working - make things with time, space, and materials you have, right now.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c377c4e9-b2c0-427e-93b7-a11ebef543ff/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c377c4e9-b2c0-427e-93b7-a11ebef543ff/Untitled.png)
+{{< image classes="fancybox fig-100" src="https://lh3.googleusercontent.com/EjPkP8bMnm4jbp00BaTlM6PZKhYA98nwWRKzI5Faig96k24dJxRVbkSAgk9XT-_E1_bLtnorRDk_d_D4KWl-ZXfa47vU0OCYcTQ3cencoIPTYbyeTmnFk00MwVzQfKVvZKPKZh7m2uxdttwFsjiGXcfR1BEZk5BdzraN0pMuHLBDGuODmt9w0qj295QPa5ZTNbOluMxYav4yuD3rcu0dEGURYX1EmPTGDerIB2DgM-TmKkkbc3RljgG-cY9Ywv1pTR63ZfMYSqw0Mx8cYeKAxL40R1RUNUzWKDti0eFjVPYV2o27vSwqyLhd215xqiyVF0OjnC6CnxljwtOjHk2kD98Kx5kLCbdCeiPlBcQcveB-yFILB-Xwf8uTgJe-kawfORg5M1Kee-K6RkeUcFnnb7NcINLtpMsbY7LVZoacxiYMuTvanC0IcCkZIGeXBBGcjTCiSps2dYuzo-1d6qJhnmrtTT_wGYq7giO1_iRV-AmPYc6Ve77jH49t8o-Wff_aColJ_AZY3-HZP9O200CL_qM9lSn-07lF58ZFJpSrehEO5250hbq1EjdrmuhkGnaqpptbrTzrBuQ6T9QoiUGp3SNgemSzFsVQ-P4lI0Xy3eiRoM1d9dFKYlQo9AsG9Y2zGwDYiLMaPtjfz2EA3AJAzM7DbiMlkS_x6ZQtLuT4fGrbfV2xvYTWmn2L8vziv65hgOs9EUxMJidtzNpkKHBHex72=w749-h736-no?authuser=0" thumbnail="https://lh3.googleusercontent.com/EjPkP8bMnm4jbp00BaTlM6PZKhYA98nwWRKzI5Faig96k24dJxRVbkSAgk9XT-_E1_bLtnorRDk_d_D4KWl-ZXfa47vU0OCYcTQ3cencoIPTYbyeTmnFk00MwVzQfKVvZKPKZh7m2uxdttwFsjiGXcfR1BEZk5BdzraN0pMuHLBDGuODmt9w0qj295QPa5ZTNbOluMxYav4yuD3rcu0dEGURYX1EmPTGDerIB2DgM-TmKkkbc3RljgG-cY9Ywv1pTR63ZfMYSqw0Mx8cYeKAxL40R1RUNUzWKDti0eFjVPYV2o27vSwqyLhd215xqiyVF0OjnC6CnxljwtOjHk2kD98Kx5kLCbdCeiPlBcQcveB-yFILB-Xwf8uTgJe-kawfORg5M1Kee-K6RkeUcFnnb7NcINLtpMsbY7LVZoacxiYMuTvanC0IcCkZIGeXBBGcjTCiSps2dYuzo-1d6qJhnmrtTT_wGYq7giO1_iRV-AmPYc6Ve77jH49t8o-Wff_aColJ_AZY3-HZP9O200CL_qM9lSn-07lF58ZFJpSrehEO5250hbq1EjdrmuhkGnaqpptbrTzrBuQ6T9QoiUGp3SNgemSzFsVQ-P4lI0Xy3eiRoM1d9dFKYlQo9AsG9Y2zGwDYiLMaPtjfz2EA3AJAzM7DbiMlkS_x6ZQtLuT4fGrbfV2xvYTWmn2L8vziv65hgOs9EUxMJidtzNpkKHBHex72=w749-h736-no?authuser=0" >}}
+
 
 ## Who should read it? 📚
 
@@ -58,8 +59,8 @@ Google everything. I mean everything. Google your dreams, Google your problems. 
 ## 2. Don't wait until you know you are to get started
 
 **You're ready. Start making stuff** 
+{{< image classes="fancybox fig-100" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48f3b4de-7ed6-4c1e-9ad5-ddcf1ef651c5/Untitled.png" thumbnail="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48f3b4de-7ed6-4c1e-9ad5-ddcf1ef651c5/Untitled.png" >}}
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48f3b4de-7ed6-4c1e-9ad5-ddcf1ef651c5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48f3b4de-7ed6-4c1e-9ad5-ddcf1ef651c5/Untitled.png)
 
 **Fake it till you make it**
 
@@ -74,12 +75,10 @@ Those who do not want to imitate anything, produce nothing
 Emulation is when imitation goes one step further, breaking through into your own thing
 
 ## 3. Write the Book You Want to Read
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13e4be4a-8230-450b-b306-676e602093b6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13e4be4a-8230-450b-b306-676e602093b6/Untitled.png)
+{{< image classes="fancybox fig-100" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13e4be4a-8230-450b-b306-676e602093b6/Untitled.png" thumbnail="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13e4be4a-8230-450b-b306-676e602093b6/Untitled.png" >}}
 
 ## 4. Use Your Hands
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf7226f7-253a-4a83-bad7-a578e20734e9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf7226f7-253a-4a83-bad7-a578e20734e9/Untitled.png)
+{{< image classes="fancybox fig-100" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf7226f7-253a-4a83-bad7-a578e20734e9/Untitled.png" thumbnail="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf7226f7-253a-4a83-bad7-a578e20734e9/Untitled.png">}}
 
 ## 5. Side Projects and Hobbies are Important
 
