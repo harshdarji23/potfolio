@@ -75,10 +75,10 @@ Those who do not want to imitate anything, produce nothing
 Emulation is when imitation goes one step further, breaking through into your own thing
 
 ## 3. Write the Book You Want to Read
-{{< image classes="fancybox fig-100" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13e4be4a-8230-450b-b306-676e602093b6/Untitled.png" thumbnail="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13e4be4a-8230-450b-b306-676e602093b6/Untitled.png" >}}
+{{< image classes="fancybox fig-100" src="https://lh3.googleusercontent.com/DTeYr--2sCu5-48ReEJJzXsXKz2Sud8sZ2TE2L1Lt2eKpz5K0PRT5E01y4VRbq4jX9e4scOrrULfYly8fX7bqEVTf1TmNjg5oNdBi2OYtMUqY9QURod_D-lwOBAzWBPJLpz79xHPeSaMmz_WGM9V0DF3JH1XsxBpWItN-iv1bldKy_cLuHmZN7asQQh8zQYSOIDuVM1XriIUMs0j2_1ykziVQ7TBmQ11lJTXG5INeUCYfgSWfoJX-6Cashnd2ll-5DEqVzP3n9_us2t6RhAnQ3gvRGLxYSWkK6Uc5EeqFEQM5lHXR8mRArvSLZJW6Pk33vYnUxzKD1EyJO7Ow8MQMWmLu55DniO0Y-d7T6S3ZBPcBIgGbWgZ3r5g2OvIc0naOgV7wjHUlvg559hLro2ZOhbZUvKIeDXmaa4ciiHKF44uBXb9pfX-5EQ6wGdrB8nJI8AeHBVlatmKzPXco0g2jDiZp08ZnpBC19AYfdDsgw9CSSrmJ_FwzkWc4MN3TV40VVlx2C7Vl7tL9RGRVkOSwSFLr1QR2lpnqktrbkxDP3SXEbmd5H0O7Pw-7OXs2oHA5XGE1YUAJYT1QjKU91PBJPMyG6O4lYjHTVqC5BpoMFYVIecGmX8ff2GEbuyVIISjhZV_LlMt-noZnBtX6nepPGI7AKKA8-qRkwV9m_bxowWoCYCcnK1mECt7YULTAVkpXeE_DMme2p7aGvFwX5xvQDH8=w732-h833-no?authuser=0" >}}
 
 ## 4. Use Your Hands
-{{< image classes="fancybox fig-100" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf7226f7-253a-4a83-bad7-a578e20734e9/Untitled.png" thumbnail="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf7226f7-253a-4a83-bad7-a578e20734e9/Untitled.png">}}
+{{< image classes="fancybox fig-100" src="https://lh3.googleusercontent.com/PKPLa183WcqehaOrwqB70maHTWzhM8pmkJAMfb0w0xZyz7-rteWl6wWehlA5EfWVImDPfcn8Dvj5LcXPAPan5VxJtVuRAopZ04-HjcOvI3nrlvmUn1h3dJkgYPnqaS6qKp5auDJsKyFgwdRr04FXHeHs1PhkjZMx5SI2RtWjv007bv4oCMMt8hnDG9nZvHrv5S2kaIHF43nFopK-WXaKFBlnS51yNjTnrXHTDd5IeN1KHwRW3CUuUGHdt-EccTgKLZJ0nC1-0G1jwTQTNQ6SdzHmomXs3hPCywg2BZxe3nuFXQoQ6XcCGrQeEBKcA8924XgOG0IPybHlWTXAN2BM8WxlKDSebcBZ6n-xVpCwV_RddcCHAs8XPv8ENbp2xNSTBjf9R9dQskRzIkT7wW79Y1lsbHyYQmMsOGEmH6-JvvplcqR-bPcvcgCFvrJ482--HGLfQpw6yQWiBUIdigoodKE1_MrQKmrT869gS2LOyDwAE-5TCcRV_BI1dfx-yEYt0fsDTzMbeEjogbHIs7iHn_Ep95CUD4Zi9aVtqWY2ikdvn-V2piy6I6uo41LIUjGOzLe9ejq5XKeBf5UH9Jo0nCVOx_NGLamKF7WO6MhSty-nn6CTWxiwdB5CGAWsV6FHOa-REzUjNV964_lR5ZBJfzB_XtFY_l6v3Qz2-LVp5AzHnYApFyraDEc58cWg56BCvx13zY84ubI3JX9p-d-U7tMk=w776-h728-no?authuser=0">}}
 
 ## 5. Side Projects and Hobbies are Important
 
