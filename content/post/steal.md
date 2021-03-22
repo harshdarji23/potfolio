@@ -59,7 +59,7 @@ Google everything. I mean everything. Google your dreams, Google your problems. 
 ## 2. Don't wait until you know you are to get started
 
 **You're ready. Start making stuff** 
-{{< image classes="fancybox fig-100" src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48f3b4de-7ed6-4c1e-9ad5-ddcf1ef651c5/Untitled.png" thumbnail="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48f3b4de-7ed6-4c1e-9ad5-ddcf1ef651c5/Untitled.png" >}}
+{{< image classes="fancybox fig-100" src="https://lh3.googleusercontent.com/R4Yrd3wGFFFedVfBLB8cSKcSAn07GcaK1WMTozoRK0zrTQX6eNYYUfCRhelOgsXjB0O3PD1OOQg1Y-u7ERpt6v4WoZnU1vKsW_apsprx9ztjsvKHn_TzmdW6dE3cUzcZqwdM-XFp3Pi1T9h02hTuyGlSwi_VpC5roVixDiOMmOF7pFLugBzUDOOrNxvurPLyiDvYQwUn3mRY6uwG1Sd2Tvb1KutbtVHb8PTvft2KxY0aHKqGQRlL19hFX5y-PSTj7FZq20y9pabbM8y5Gi0EAI4UtHrC-4-aRajNhUI3teTLLXN4Hy2htNZPSeVcmi2dThLVMzWY4weyna_NTL-QYAxAeR7HdlBB4GF0izkExTdqIJoQ72tpMfm0Ghs1nKQY_uHsCWnfZhmBPUvmszSX6RYvWGPVd4MENLk1fAnW2VHSuC4wYhkwfg6sStdtrspucExBemz20FFQi_wt5eSI8F38EinhvTdbal-1P3wgE8jxzdvPuSZqU2QqACkSjuszCABy1iU4dW96tqj8MU27wZIE99PuCgMLb2zbAzb2hv9sb7f7tZZOX4gSLnJ4qgx2R9Nh0PUwQanzS2tf88KyrxrsO90aiXh95qmG3Bkd0Jci_bnK23-zhbEt0QyNTfB6ITtIhphdJh2WKst2PIHc-fLekOSbiusykxxgV9Pm_bO6MMR24nvIIzq5NzlMfOEdEXIMzYapRmifRyO28O2ZZGEp=w773-h763-no?authuser=0" >}}
 
 
 **Fake it till you make it**
