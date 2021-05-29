@@ -17,7 +17,7 @@ metaAlignment: center
 ---
 **How strongly I recommend it:** 4/5 
 
-Check out all my [book summaries](https://www.amazon.com/Tuesdays-with-Morrie-Mitch-Albom-audiobook/dp/B000XSAY4Q/ref=sr_1_1?crid=IAX5NNC1JI9T&dchild=1&keywords=tuesdays+with+morrie&qid=1622326627&s=books&sprefix=Tuesdays+%2Caps%2C185&sr=1-1), for more.
+Check out all my [book summaries](https://www.harshdarji.com/categories/#posts-list-book-summary), for more.
 Go to [Amazon page](https://www.amazon.com/Tuesdays-with-Morrie-Mitch-Albom-audiobook/dp/B000XSAY4Q/ref=sr_1_1?crid=IAX5NNC1JI9T&dchild=1&keywords=tuesdays+with+morrie&qid=1622326627&s=books&sprefix=Tuesdays+%2Caps%2C185&sr=1-1) for details and reviews.
 
 ## My Notes 🎯
