@@ -1,5 +1,5 @@
 ---
-title: "Steal Like an Artist (Austin Kleon) 🏹"
+title: "Steal Like an Artist 🏹"
 date: 2021-03-21
 categories:
 - Book Summary
