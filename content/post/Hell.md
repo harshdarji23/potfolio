@@ -17,6 +17,7 @@ metaAlignment: center
 ---
 This book was recoomended by [Ali Abdaal](https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg) in one of his videos on YouTube and OMG I love this guy! He turned his blog posts into a book and gives 
 an excellent advice on getting things done. 
+
 **How strongly I recommend it:** 5/5 
 
 Check out all my [book summaries](https://www.harshdarji.com/categories/#posts-list-book-summary), for more.
