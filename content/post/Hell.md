@@ -1,5 +1,5 @@
 ---
-title: "Hell Yeah or No: What's worth doing by Derek Sivers "
+title: "Hell Yeah or No: What's worth doing by Derek Sivers 💪🏼"
 date: 2021-05-04
 categories:
 - Book Summary
